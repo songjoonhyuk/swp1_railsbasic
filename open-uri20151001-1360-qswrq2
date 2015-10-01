@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Likelion" />
+	<meta property="og:title" content="멋쟁이 사자처럼" />
+	<meta property="og:site_name" content="내 회사 한번 가져봐야 하지 않겠나?" />
+	<meta property="og:image" content="http://likelion.net/images/likelion-midium.png" />
+	<meta property="og:url" content="http://likelion.net/" />
+	<meta property="og:type" content="website" />
+	<meta property="fb:app_id" content="149190165235116" />
+	<meta property="og:description" content="대학생들이 내가 만들고 싶은 IT 서비스를 직접 배워서, 직접 만듭니다. 단 81일만에."/>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,700,400' rel='stylesheet' type='text/css'>
+	<!-- Stylesheets
+	============================================= -->
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+	<!-- One Page Module Specific Stylesheet -->
+	<link rel="stylesheet" href="css/onepage.css" type="text/css" />
+	<!-- / -->
+
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/et-line.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/fonts.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<link rel="stylesheet" href="css/noto-fonts.css" type="text/css" />
+	<link rel="stylesheet" href="css/likelion.css?v=20150601" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+
+	<!-- Document Title
+	============================================= -->
+	<title>멋쟁이 사자 처럼 3기</title>
+
+    <!--  AngularJS -->
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular/UnivController.js"></script>
+
+    <!-- for slide -->
+    <!--<link rel="stylesheet" type="text/css" href="css/demo_bak.css" />-->
+    <link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <script src="js/modernizr.custom.17475.js"></script>
+
+</head>
+
+<body class="stretched side-push-panel" ng-app="myApp" ng-controller="univController">
+	<div class="body-overlay"></div>
+</div>
+<!-- Document Wrapper
+============================================= -->
+<div id="wrapper" class="clearfix">
+
+	<!-- Header
+	============================================= -->
+	<header id="header" class="full-header transparent-header dark static-sticky" data-sticky-class="not-dark" data-sticky-offset="full" data-sticky-offset-negative="100">
+		<div id="header-wrap">
+			<div class="fb-wrapper">
+				<div class="fb-like" data-href="http://likelion.net" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+			</div>
+			<div class="container clearfix">
+				<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+				<!-- Logo
+				============================================= -->
+				<div id="logo">
+					<a href="/" class="standard-logo" data-dark-logo="images/logo.png"><img src="images/logo.png" alt="Likelion"></a>
+					<a href="/" class="retina-logo" data-dark-logo="images/logo.png"><img src="images/logo.png" alt="Likelion"></a>
+				</div>
+				<!-- #logo end -->
+
+				<!-- Primary Navigation
+				============================================= -->
+				<nav id="primary-menu">
+					<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+						<li><a href="#" data-href="#wrapper"><div>HOME</div></a></li>
+						<li><a href="#" data-href="#section-about"><div>ABOUT</div></a></li>
+						<li><a href="#" data-href="#section-univ"><div>MEMBERS</div></a></li>
+						<li><a href="#" data-href="#section-works"><div>SPONSORS</div></a></li>
+						<li><a href="#" data-href="#section-review"><div>REVIEWS</div></a></li>
+						<li><a href="#" data-href="#section-services"><div>SERVICES</div></a></li>
+						<li><a href="#" data-href="#section-operator"><div>OPERATOR</div></a></li>
+					</ul>
+				</nav><!-- #primary-menu end -->
+			</div>
+		</div>
+	</header><!-- #header end -->
+
+	<!-- Slider
+	============================================= -->
+	<section id="slider" class="slider-parallax full-screen force-full-screen">
+		<div class="full-screen force-full-screen dark section nopadding nomargin noborder ohidden" style="background-image: url('images/lion-background.jpg'); background-size: cover; background-position: center center;">
+
+			<div class="container center">
+				<div class="vertical-middle ignore-header">
+
+					<div class="emphasis-title">
+						<h1 class="t700 font-body opm-large-word">
+							멋쟁이 사자처럼
+						</h1>
+					</div>
+
+					<!--<div class="box bg-1">-->
+						<!--<a a href="#" data-scrollto="#section-apply" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="button button--nina button--text-thick button--text-upper button--size-s" data-text="apply">-->
+							<!--&lt;!&ndash;for animation &ndash;&gt;-->
+							<!--<span>a</span>-->
+							<!--<span>p</span>-->
+							<!--<span>p</span>-->
+							<!--<span>l</span>-->
+							<!--<span>y</span>-->
+						<!--</a>-->
+					<!--</div>-->
+
+				</div>
+			</div>
+
+			<div class="video-wrap">
+				<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
+			</div>
+
+			<a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+
+		</div>
+
+	</section><!-- #slider end -->
+
+	<!-- Content
+	============================================= -->
+	<section id="content">
+		<div class="content-wrap nopadding">
+			<div id="section-about" class="center page-section">
+				<div class="section nomargin ll-section-image" style="background-image: url('images/bg/about.jpg');">
+					<div class="container clearfix">
+						<div class="divcenter center" style="max-width: 900px;"></div>
+					</div>
+				</div>
+				<div class="container clearfix">
+					<div class="divcenter ll-about-text ll-font">
+						<div class="c-upper">
+							<div class="top"><span class="ll-font-bold ll-font-underline">대학생들이</span></div>
+							<div class="top">내가 만들고 싶은 IT 서비스를</div>
+							<div class="middle">직접 배워서<br/><span class="ll-font-bold ll-font-underline">직접 만듭니다</span></div>
+							<div class="last ll-font-bold ll-font-underline">단 81일만에</div>
+						</div>
+
+						<span class="ll-font-orange c-lower"><a href="http://1st.likelion.net" target="_blank">2013년 서울대</a>, <a href="http://2nd.likelion.net" target="_blank">2014년 수도권</a>, 그리고 이번 2015년은 전국으로 확대합니다</span>
+					</div>
+
+					<div class="clear"></div>
+
+					<div class="ll-introduction">
+						<div class="c-intro c-ssn">
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="c-ssn-header">STUDY</div>
+									<img src="images/about/icon_01.png" class="c-ssn-image">
+									<p class="c-ssn-text">
+										HTML/CSS부터 jQuery와 같은 프론트엔드<br/>기술과 ruby/rails와 같은 Web Framework를 공부합니다.
+									</p>
+								</div>
+								<div class="col-sm-4">
+									<div class="c-ssn-header">SERVICE</div>
+									<img src="images/about/icon_02.png" class="c-ssn-image">
+									<p class="c-ssn-text">
+										평소에 "이런 IT 서비스를 꼭 만들어 보고 싶었다."<br/>라고 생각했던 것들을 본인이 직접 구현합니다.
+									</p>
+								</div>
+								<div class="col-sm-4">
+									<div class="c-ssn-header">NETWORK</div>
+									<img src="images/about/icon_03.png" class="c-ssn-image">
+									<p class="c-ssn-text">
+										나와 비슷한 생각을 가진<br/>대학교 친구들을 만날 수 있습니다.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="c-intro c-period">
+							<img src="images/about/day.png">
+						</div>
+						<div class="c-intro c-learnWrapper">
+							<div class="c-learn clearfix">
+								<img src="images/about/desc_01.png" class="c-learn-icon">
+								<div class="c-learn-text">각 대학별로 <span class="ll-font-bold">3명의 컴퓨터 전공자</span>와 <span class="ll-font-bold">7명의 비전공자</span>를 모집합니다.</div>
+							</div>
+							<div class="c-learn clearfix">
+								<img src="images/about/desc_02.png" class="c-learn-icon">
+								<div class="c-learn-text">
+									<span class="ll-font-bold">학교에서는 가르쳐 주지 않는 내용</span>을 이미 검증된 <span class="ll-font-bold">멋사만의 노하우</span>로 알려드립니다.<br/>
+								</div>
+							</div>
+							<div class="c-learn clearfix">
+								<img src="images/about/desc_03.png" class="c-learn-icon">
+								<div class="c-learn-text">방학동안 스터디에 충실하면, <span class="ll-font-bold">여러분이 상상하던 서비스</span>를 만들 수 있습니다.</div>
+							</div>
+							<div class="c-learn clearfix">
+								<img src="images/about/desc_04.png" class="c-learn-icon">
+								<div class="c-learn-text">
+									멋사 3기를 함께하는 분들은 <span class="ll-font-bold">각 대학별 "멋사x00대학교 동아리"</span>를 설립하여 <span class="ll-font-bold">새로운 역사</span>를 시작하게 됩니다.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="section-univ" class="page-section notoppadding ll-review">
+				<div class="section nomargin ll-section-image" style="background-image: url('images/bg/member.jpg');">
+
+                </div>
+
+                <!-- Elastislide Carousel -->
+                <div class="container" style="width: 90%; margin-top: 10px">
+                    <ul id="carousel" class="elastislide-list">
+                        <li ng-click="view_member('unist')"><a style="cursor: pointer;"><img src="images/univ/univ/unist.jpg" alt="unist" /></a></li>
+                        <li ng-click="view_member('konkuk')"><a style="cursor: pointer;"><img src="images/univ/univ/konkuk.jpg" alt="건국대" /></a></li>
+						<li ng-click="view_member('kangwon')"><a style="cursor: pointer;"><img src="images/univ/univ/kangwon.jpg" alt="강원대" /></a></li>
+						<li ng-click="view_member('knu')"><a style="cursor: pointer;"><img src="images/univ/univ/knu.jpg" alt="경북대" /></a></li>
+                        <li ng-click="view_member('khu')"><a style="cursor: pointer;"><img src="images/univ/univ/khu.jpg" alt="경희대" /></a></li>
+
+                        <li ng-click="view_member('korea')"><a style="cursor: pointer;"><img src="images/univ/univ/korea.jpg" alt="고려대" /></a></li>
+                        <li ng-click="view_member('kookmin')"><a style="cursor: pointer;"><img src="images/univ/univ/kookmin.jpg" alt="국민대" /></a></li>
+                        <li ng-click="view_member('dankook')"><a style="cursor: pointer;"><img src="images/univ/univ/dankook.jpg" alt="단국대" /></a></li>
+                        <li ng-click="view_member('duksung')"><a style="cursor: pointer;"><img src="images/univ/univ/duksung.jpg" alt="덕성여대" /></a></li>
+                        <li ng-click="view_member('dongguk')"><a style="cursor: pointer;"><img src="images/univ/univ/dongguk.jpg" alt="동국대" /></a></li>
+
+                        <li ng-click="view_member('dongduk')"><a style="cursor: pointer;"><img src="images/univ/univ/dongduk.jpg" alt="동덕여대" /></a></li>
+                        <li ng-click="view_member('pusan')"><a style="cursor: pointer;"><img src="images/univ/univ/pusan.jpg" alt="부산대" /></a></li>
+                        <li ng-click="view_member('sogang')"><a style="cursor: pointer;"><img src="images/univ/univ/sogang.jpg" alt="서강대" /></a></li>
+                        <li ng-click="view_member('seoultech')"><a style="cursor: pointer;"><img src="images/univ/univ/seoultech.jpg" alt="서울과기대" /></a></li>
+                        <li ng-click="view_member('snu')"><a style="cursor: pointer;"><img src="images/univ/univ/snu.jpg" alt="서울대" /></a></li>
+
+                        <li ng-click="view_member('uos')"><a style="cursor: pointer;"><img src="images/univ/univ/uos.jpg" alt="서울시립대" /></a></li>
+                        <li ng-click="view_member('swu')"><a style="cursor: pointer;"><img src="images/univ/univ/swu.jpg" alt="서울여대" /></a></li>
+                        <li ng-click="view_member('skku')"><a style="cursor: pointer;"><img src="images/univ/univ/skku.jpg" alt="성균관대" /></a></li>
+                        <li ng-click="view_member('sungshin')"><a style="cursor: pointer;"><img src="images/univ/univ/sungshin.jpg" alt="성신여대" /></a></li>
+                        <li ng-click="view_member('sookmyung')"><a style="cursor: pointer;"><img src="images/univ/univ/sookmyung.jpg" alt="숙명여대" /></a></li>
+
+                        <li ng-click="view_member('ajou')"><a style="cursor: pointer;"><img src="images/univ/univ/ajou.jpg" alt="아주대" /></a></li>
+                        <li ng-click="view_member('yonsei')"><a style="cursor: pointer;"><img src="images/univ/univ/yonsei.jpg" alt="연세대" /></a></li>
+                        <li ng-click="view_member('yungnam')"><a style="cursor: pointer;"><img src="images/univ/univ/yungnam.jpg" alt="영남대" /></a></li>
+                        <li ng-click="view_member('wku')"><a style="cursor: pointer;"><img src="images/univ/univ/wku.jpg" alt="원광대" /></a></li>
+                        <li ng-click="view_member('ewha')"><a style="cursor: pointer;"><img src="images/univ/univ/ewha.jpg" alt="이화여대" /></a></li>
+
+                        <li ng-click="view_member('inha')"><a style="cursor: pointer;"><img src="images/univ/univ/inha.jpg" alt="인하대" /></a></li>
+                        <li ng-click="view_member('jnu')"><a style="cursor: pointer;"><img src="images/univ/univ/jnu.jpg" alt="전남대" /></a></li>
+                        <li ng-click="view_member('cau')"><a style="cursor: pointer;"><img src="images/univ/univ/cau.jpg" alt="중앙대" /></a></li>
+                        <li ng-click="view_member('cnu')"><a style="cursor: pointer;"><img src="images/univ/univ/cnu.jpg" alt="충남대" /></a></li>
+                        <li ng-click="view_member('ptu')"><a style="cursor: pointer;"><img src="images/univ/univ/ptu.jpg" alt="평택대" /></a></li>
+
+                        <li ng-click="view_member('kaist')"><a style="cursor: pointer;"><img src="images/univ/univ/kaist.jpg" alt="한국과학기술원" /></a></li>
+                        <li ng-click="view_member('hufs')"><a style="cursor: pointer;"><img src="images/univ/univ/hufs.jpg" alt="한국외대" /></a></li>
+                        <li ng-click="view_member('handong')"><a style="cursor: pointer;"><img src="images/univ/univ/handong.jpg" alt="한동대" /></a></li>
+                        <li ng-click="view_member('hanyang')"><a style="cursor: pointer;"><img src="images/univ/univ/hanyang.jpg" alt="한양대" /></a></li>
+                        <li ng-click="view_member('karts')"><a style="cursor: pointer;"><img src="images/univ/univ/karts.jpg" alt="한예종" /></a></li>
+
+                        <li ng-click="view_member('foreign')"><a style="cursor: pointer;"><img src="images/univ/univ/foreign.jpg" alt="유학생" /></a></li>
+                    </ul>
+                </div>
+				<!-- End Elastislide Carousel -->
+
+                <!-- member -->
+				<div class="container">
+					<div class="common-height clearfix">
+						<div class="col-md-12">
+							<div class="ll-service-wrapper">
+								<div class="row common-height grid-border clearfix">
+                                    <!-- for -->
+									<div class="col-md-3 col-sm-6 ll-service-pd" ng-repeat="x in members">
+                                        <div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder" style="cursor: default">
+                                            <img src="{{x.photo}}" class="ll-service-image" style="width: 220px; height: 220px;">
+											<h3 ng-bind="x.name" class="member" style="margin-top: 15px;"></h3>
+											<h3 ng-bind="univ.name" class="member" style="font-size: 13px; height: 20px;"></h3>
+                                            <h3 ng-bind="x.major" class="member" style="font-size: 13px; height: 20px;"></h3>
+                                        </div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                <!-- END member -->
+
+			</div>
+
+			<div id="section-works" class="page-section notoppadding">
+				<div class="section nomargin ll-section-image" style="background-image: url('images/bg/spon.jpg');">
+				</div>
+				<!-- Sponsers -->
+				<div class="container">
+					<div id="portfolio" class="clearfix ll-sponser">
+						<div class="ll-sponser-item">
+							<div class="c-image">
+								<a href="https://www.campus.co/seoul/ko" target="_blank">
+									<img src="images/sponsers/gc.png" alt="구글 캠퍼스 서울">
+								</a>
+							</div>
+							<div class="c-desc">
+								<a href="https://www.campus.co/seoul/ko" target="_blank" class="c-desc-link">구글 캠퍼스 서울</a>
+								<span>스타트업을 위한 캠퍼스</span>
+							</div>
+						</div>
+						<div class="ll-sponser-item">
+							<div class="c-image">
+								<a href="http://www.yellomobile.com" target="_blank">
+									<img src="images/sponsers/ym.png" alt="옐로 모바일">
+								</a>
+							</div>
+							<div class="c-desc">
+								<a href="http://www.yellomobile.com" target="_blank" class="c-desc-link">옐로 모바일</a>
+								<span>No.1 Mobile Business Platform</span>
+							</div>
+						</div>
+						<div class="ll-sponser-item">
+							<div class="c-image">
+								<a href="https://www.vingle.net" target="_blank">
+									<img src="http://e1.vingle.net/ojeivvm9ozagbhhkeedx" alt="빙글">
+								</a>
+							</div>
+							<div class="c-desc">
+								<a href="https://www.vingle.net" target="_blank" class="c-desc-link">빙글</a>
+								<span>Very Community</span>
+							</div>
+						</div>
+						<div class="ll-sponser-item">
+							<div class="c-image">
+								<a href="http://bonangels.net" target="_blank">
+									<img src="images/sponsers/ba.jpg" alt="본 엔젤스">
+								</a>
+							</div>
+							<div class="c-desc">
+								<a href="http://bonangels.net" target="_blank" class="c-desc-link">Bon Angels</a>
+								<span>Early Stage VC & Veteran Pacemaker</span>
+							</div>
+						</div>
+						<div class="ll-sponser-smHeader">멋쟁이 사자처럼 출신 후원 회사</div>
+						<div class="ll-sponser-smWrapper">
+							<div class="ll-sponser-item is-sm">
+								<div class="c-image">
+									<a>
+										<img src="images/sponsers/pellue.png" alt="PELLUE">
+									</a>
+								</div>
+								<div class="c-desc">
+									<a class="c-desc-link">PELLUE</a>
+									<span>People & Value</span>
+								</div>
+							</div>
+							<div class="ll-sponser-item is-sm">
+								<div class="c-image">
+									<a href="http://jasoseol.com" target="_blank">
+										<img src="images/sponsers/js.png" alt="자소설닷컴">
+									</a>
+								</div>
+								<div class="c-desc">
+									<a href="http://jasoseol.com" target="_blank" class="c-desc-link">자소설닷컴</a>
+									<span>세상에서 가장 쉬운 취업 준비</span>
+								</div>
+							</div>
+							<div class="ll-sponser-item is-sm">
+								<div class="c-image">
+									<a href="http://www.toycode.net" target="_blank">
+										<img src="images/sponsers/tc.png" alt="토이코드">
+									</a>
+								</div>
+								<div class="c-desc">
+									<a href="http://www.toycode.net" target="_blank" class="c-desc-link">토이코드</a>
+									<span>온라인 웹 코딩 교육</span>
+								</div>
+							</div>
+							<div class="ll-sponser-item is-sm">
+								<div class="c-image">
+									<a href="http://www.bepro11.com" target="_blank">
+										<img src="images/sponsers/bp.png" alt="bepro11">
+									</a>
+								</div>
+								<div class="c-desc">
+									<a href="http://www.bepro11.com" target="_blank" class="c-desc-link">bepro11</a>
+									<span>아마추어 축구 리그<br/>&기록 관리 시스템</span>
+								</div>
+							</div>
+							<div class="ll-sponser-item is-sm">
+								<div class="c-image">
+									<a href="http://www.buckets.kr" target="_blank">
+										<img src="images/sponsers/bc.png" alt="Buckets">
+									</a>
+								</div>
+								<div class="c-desc">
+									<a href="http://www.buckets.kr" target="_blank" class="c-desc-link">Buckets</a>
+									<span>쇼핑 큐레이팅 서비스</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- #portfolio end -->
+			</div>
+
+			<div id="section-review" class="page-section notoppadding ll-review">
+				<div class="section nomargin ll-section-image" style="background-image: url('images/bg/review.jpg');">
+				</div>
+
+				<div class="ll-review-content">
+					<div class="container clearfix">
+						<div class="nobottommargin">
+							<div class="fslider testimonial testimonial-full nobgcolor noborder noshadow nopadding" data-arrows="false">
+								<div class="flexslider">
+									<div class="slider-wrap">
+										<div class="slide">
+											<div>
+												<div class="c-profile">
+													<img src="images/comment/01.jpg">
+												</div>
+												<p class="c-content">
+													친절하고 열정적인 선생님들이 계셔서 비전공자임에도 불구하고 3달간 정말 많은걸 배웠고 코딩에 대한 두려움이 없어졌어요!<br/>
+													언젠가 꼭 저만의 서비스를 런칭하고 말겁니다.<br/>
+													2015년 여름방학을 불태우실 분들 꼭 지원하세요!!!
+												</p>
+												<div class="c-student">
+													한장희
+													<span>고려대학교</span>
+												</div>
+											</div>
+										</div>
+										<div class="slide">
+											<div>
+												<div class="c-profile">
+													<img src="images/comment/02.jpg">
+												</div>
+												<p class="c-content">
+													프로그래밍을 배운다는 것은 지금까지 해왔던 공부와는 다르게 무언가를 만들면서 배우는 과정이었습니다.<br/>
+													'멋쟁이 사자처럼'을 통해 창조의 과정을 즐기는 소중한 경험을 했습니다.<br/>
+													자신의 손으로 새로운 것을 만들어 보고 싶은 분께 추천드립니다.
+												</p>
+												<div class="c-student">
+													김명주
+													<span>건국대학교</span>
+												</div>
+											</div>
+										</div>
+										<div class="slide">
+											<div>
+												<div class="c-profile">
+													<img src="images/comment/03.jpg">
+												</div>
+												<p class="c-content">
+													컴맹도 할 수 있다는 문구에 이끌려 시작한 활동이었지만 생각보다 많은 것을 배울 수 있는 뜻 깊은 기회였습니다.<br/>
+													컴퓨터공학을 전공하게 될거라고는 상상도 못했지만 내가 모르고 있던 흥미를 찾아 전공까지 하게되었습니다. <br/>
+													멋쟁이 사자처럼의 모든 분들 정말 감사합니다.
+												</p>
+												<div class="c-student">
+													송수연
+													<span>명지대학교</span>
+												</div>
+											</div>
+										</div>
+										<div class="slide">
+											<div>
+												<div class="c-profile">
+													<img src="images/comment/04.jpg">
+												</div>
+												<p class="c-content">
+													저는 지난 여름 멋사에서 웹서비스를 만들었습니다. <br/>
+													여름방학동안 프로그래밍을 공부해 직접 웹서비스를 제작하고 해커톤을 거쳐 광고 수익을 얻는 과정까지 경험했습니다. <br/>
+													이를 통해 창업에 대한 자신감을 갖게 되었고 무엇보다 어렵게만 느껴졌던 프로그래밍의 재미를 알게 되었습니다. 감사합니다.
+												</p>
+												<div class="c-student">
+													김재현
+													<span>경희대학교</span>
+												</div>
+											</div>
+										</div>
+										<div class="slide">
+											<div>
+												<div class="c-profile">
+													<img src="images/comment/05.jpg">
+												</div>
+												<p class="c-content">
+													'프로그래밍 할 수 있어요' 살아생전 이런 말을 할지 누가 알았겠어요?<br/>
+													자다가도 놀라서 벌떡 일어난다니깐요. 컴맹이 개발자가 된지 벌써 일년.<br/>
+													그 때 받은 구글 티셔츠를 아직도 입고다녀요.
+												</p>
+												<div class="c-student">
+													신지원
+													<span>명지대학교</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="section-services" class="page-section notoppadding">
+				<div class="section nomargin ll-section-image" style="background-image: url('images/bg/service.jpg');">
+				</div>
+				<div class="container">
+					<div class="common-height clearfix">
+						<div class="col-md-12">
+							<div class="ll-service-wrapper">
+								<div class="row common-height grid-border clearfix">
+									<div class="col-md-3 col-sm-6 ll-service-pd">
+										<a href="http://codestudy.kr" target="_blank">
+											<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
+												<img src="images/services/codestudy.jpg" class="ll-service-image">
+												<h3>코드스터디</h3>
+												<p>온라인 프로그래밍 교육</p>
+												<span>한국 인터넷 진흥원 KISA와 공동프로젝트 진행</span>
+												<a href="http://codestudy.kr" target="_blank">http://codestudy.kr</a>
+											</div>
+										</a>
+									</div>
+									<div class="col-md-3 col-sm-6 ll-service-pd">
+										<a href="http://codelion.net" target="_blank">
+											<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
+												<img src="images/services/codelion.jpg" class="ll-service-image">
+												<h3>코드라이언</h3>
+												<p>온라인 프로그래밍 교육</p>
+												<span>한국인터넷진흥원 KISA와 공동프로젝트 진행 NIPA 캠퍼스CEO 프로그램 선정 약 3천 여명이 수강</span>
+												<a href="http://codelion.net" target="_blank">http://codelion.net</a>
+											</div>
+										</a>
+									</div>
+									<div class="col-md-3 col-sm-6 ll-service-pd">
+										<a href="#" target="_blank">
+											<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
+												<img src="images/services/nowarning.jpg" class="ll-service-image">
+												<h3>NOWARNING</h3>
+												<p>PROXY 속도 비교</p>
+												<a href="http://nowarning.or.kr">http://nowarning.or.kr</a>
+											</div>
+										</a>
+									</div>
+									<div class="col-md-3 col-sm-6 ll-service-pd">
+										<a href="http://bepro11.com" target="_blank">
+											<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
+												<img src="images/services/bepro11.jpg" class="ll-service-image">
+												<h3>BePro11</h3>
+												<p>축구 기록 관리 시스템</p>
+												<span>아마추어 축구 리그 및 기록 관리 시스템 법인 설립, 벤처기업 인증, 시드 펀딩 완료</span>
+												<a href="http://bepro11.com" target="_blank">http://bepro11.com</a>
+											</div>
+										</a>
+									</div>
+									<div class="col-md-3 col-sm-6 ll-service-pd">
+										<a target="_blank">
+											<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
+												<img src="images/services/votepeople.jpg" class="ll-service-image">
+												<h3>보트피플</h3>
+												<p>서울대 총학 온라인 투표</p>
+												<span>서울대 총학 투표 및 10여개 주요 학내 투표 진행 서울대 최초의 학생 온라인 투표</span>
+												<a>http://vote.snu.ac.kr</a>
+											</div>
+										</a>
+									</div>
+									<div class="col-md-3 col-sm-6 ll-service-pd">
+										<a href="http://jasoseol.com" target="_blank">
+											<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
+												<img src="images/services/jasoseol.jpg" class="ll-service-image">
+												<h3>자소설닷컴</h3>
+												<p>자기소개서 토탈솔루션</p>
+												<span>19만개 이상의 자기소개서 보유. 시드 펀딩 완료.</span>
+												<a href="http://jasoseol.com" target="_blank">http://jasoseol.com</a>
+											</div>
+										</a>
+									</div>
+									<div class="col-md-3 col-sm-6 ll-service-pd">
+										<a href="http://togedule.com" target="_blank">
+											<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
+												<img src="images/services/togedule.jpg" class="ll-service-image">
+												<h3>투게쥴</h3>
+												<p>여럿이 시간 약속 잡을 때는?</p>
+												<span>친구끼리 비는 시간 찾아서 약속시간 후보 알려주기 </span>
+												<a href="http://togedule.com" traget="_blank">http://togedule.com</a>
+											</div>
+										</a>
+									</div>
+									<div class="col-md-3 col-sm-6 ll-service-pd">
+										<a href="http://jikbakguri.com" target="_blank">
+											<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
+												<img src="images/services/avsearch.jpg" class="ll-service-image">
+												<h3>직박구리</h3>
+												<p>건국이래 가장 야동 잘 찾아주는 사이트</p>
+												<span>야동 평가/추천 서비스 평균 하루 방문자 n만</span>
+												<a href="http://jikbakguri.com" target="_blank">http://jikbakguri.com</a>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="section-operator" class="page-section notoppadding ll-review">
+				<div class="section nomargin ll-section-image" style="background-image: url('images/bg/operator.jpg');">
+				</div>
+
+                <!-- Operator -->
+				<div class="container">
+					<div class="common-height clearfix ll-sponser">
+
+                        <!--ldh-->
+                        <div class="col-md-6">
+                            <div class="ll-operator-item">
+                                <div class="c-image">
+                                    <img src="images/team/master-duhee.png" alt="이두희">
+                                </div>
+                                <div class="c-desc">
+                                    <span>이두희</span>
+                                    <div class="sns-link">
+                                        <a href="https://www.facebook.com/iam.duhee?ref=ts&fref=ts" target="_blank" class="c-desc-link">
+                                            <img src="images/icons/sns_32.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--cyc-->
+                        <div class="col-md-6">
+                            <div class="ll-operator-item">
+                                <div class="c-image">
+                                    <img src="images/team/master-charles.png" alt="최용철">
+                                </div>
+                                <div class="c-desc">
+                                    <span>최용철</span>
+                                    <div class="sns-link">
+                                        <a href="https://www.facebook.com/yongchol.choi?fref=ts" target="_blank" class="c-desc-link">
+                                            <img src="images/icons/sns_32.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- row 1 -->
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ll-operator-item">
+                                <div class="c-image">
+                                    <img src="images/team/kbj.jpg" alt="김범준">
+                                </div>
+                                <div class="c-desc">
+                                    <span>김범준</span>
+                                    <div class="sns-link">
+                                        <a href="https://www.facebook.com/beomjun119?fref=ts" target="_blank" class="c-desc-link">
+                                            <img src="images/icons/sns_32.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ll-operator-item">
+                                <div class="c-image">
+                                    <img src="images/team/kjh.jpg" alt="김지호">
+                                </div>
+                                <div class="c-desc">
+                                    <span>김지호</span>
+                                    <div class="sns-link">
+                                        <a href="https://www.facebook.com/profile.php?id=100007231842061&fref=ts" target="_blank" class="c-desc-link">
+                                            <img src="images/icons/sns_32.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ll-operator-item">
+                                <div class="c-image">
+                                    <img src="images/team/kjo.jpg" alt="김진오">
+                                </div>
+                                <div class="c-desc">
+                                    <span>김진오</span>
+                                    <div class="sns-link">
+                                        <a href="https://www.facebook.com/astyfx?fref=ts" target="_blank" class="c-desc-link">
+                                            <img src="images/icons/sns_32.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ll-operator-item">
+                                <div class="c-image">
+                                    <img src="images/team/psj.jpg" alt="박세진">
+                                </div>
+                                <div class="c-desc">
+                                    <span>박세진</span>
+                                    <div class="sns-link">
+                                        <a href="https://www.facebook.com/Park.3e?fref=ts" target="_blank" class="c-desc-link">
+                                            <img src="images/icons/sns_32.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- row 2 -->
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ll-operator-item">
+                                <div class="c-image">
+                                    <img src="images/team/psy.jpg" alt="박순영">
+                                </div>
+                                <div class="c-desc">
+                                    <span>박순영</span>
+                                    <div class="sns-link">
+                                        <a href="https://www.facebook.com/sy.park.me?fref=ts" target="_blank" class="c-desc-link">
+                                            <img src="images/icons/sns_32.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ll-operator-item">
+                                <div class="c-image">
+                                    <img src="images/team/esu.jpg" alt="어수웅">
+                                </div>
+                                <div class="c-desc">
+                                    <span>어수웅</span>
+                                    <div class="sns-link">
+                                        <a href="https://www.facebook.com/archinitus?fref=ts" target="_blank" class="c-desc-link">
+                                            <img src="images/icons/sns_32.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ll-operator-item">
+                                <div class="c-image">
+                                    <img src="images/team/osj.jpg" alt="오성진">
+                                </div>
+                                <div class="c-desc">
+                                    <span>오성진</span>
+                                    <div class="sns-link">
+                                        <a href="https://www.facebook.com/sungjin.o.5?fref=ts" target="_blank" class="c-desc-link">
+                                            <img src="images/icons/sns_32.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ll-operator-item">
+                                <div class="c-image">
+                                    <img src="images/team/ltw.jpg" alt="이태우">
+                                </div>
+                                <div class="c-desc">
+                                    <span>이태우</span>
+                                    <div class="sns-link">
+                                        <a href="https://www.facebook.com/tprpc?fref=ts" target="_blank" class="c-desc-link">
+                                            <img src="images/icons/sns_32.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+						<div class="col-md-4 col-sm-6">
+                            <div class="ll-operator-item">
+                                <div class="c-image">
+                                    <img src="images/team/pjh.jpeg" alt="박준호" style="width: 220px; height: 220px;">
+                                </div>
+                                <div class="c-desc">
+                                    <span>박준호</span>
+                                    <div class="sns-link">
+                                        <a href="https://www.facebook.com/joonho.park.54?fref=ts" target="_blank" class="c-desc-link">
+                                            <img src="images/icons/sns_32.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+    </section>
+</div><!-- #wrapper end -->
+
+
+<!-- Go To Top
+============================================= -->
+<div id="gotoTop" class="icon-angle-up"></div>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.3&appId=149190165235116";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- GA -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63602526-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+<!-- Footer Scripts
+============================================= -->
+<script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/angular.min.js"></script>
+
+<!-- for slide -->
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
+<script type="text/javascript" src="js/jquerypp.custom.js"></script>
+<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+<script type="text/javascript">
+    $( '#carousel' ).elastislide();
+</script>
+
+</body>
+
+<!-- footer -->
+<footer id="footer" class="dark">
+  <div class="container ll-apply">
+    <!-- <div class="divcenter u-alignCenter" style="max-width: 850px;">
+      <a href="http://apply.likelion.net" target="_blank" class="button button--nina button--text-thick button--text-upper button--size-s" data-text="지원하기">
+        <span>지</span><span>원</span><span>하</span><span>기</span>
+      </a>
+    </div> -->
+    <!-- <div class="ll-apply-description">
+      <div class="c-text">
+        <span class="ll-font-bold">6월 1일(월)</span> ~ <span class="ll-font-bold">6월 8일(월)</span> 자정까지
+      </div>
+    </div> -->
+    <div class="ll-apply-description">
+      <div class="c-text">
+        <span class="ll-font-bold">총 지원자 3,812명 / 최종 경쟁률 12.7:1</span><br>
+      </div>
+    </div>
+    <div class="ll-apply-description">
+      <div class="c-text">
+        <span class="ll-font-bold">접수를 마감합니다.</span>
+      </div>
+    </div>
+
+    <div id="copyrights">
+      <div class="center clearfix">
+        Copyright Likelion.net 2015 | All Rights Reserved
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>

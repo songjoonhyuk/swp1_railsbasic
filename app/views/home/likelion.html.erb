@@ -7,11 +7,13 @@
 <% require 'open-uri' %><br>
 <br>
 
-<% pu = "http://joongang.joins.com/" %><br>
+<% pu = "http://www.likelion.net/" %><br>
 <% page = Nokogiri::HTML(open(pu))%><br>
 <%= page.class %>  <br> 
-
+<% doc = page.css('.c-intro img') %>
+<%= doc[0][:src] %>
 <br>
 
-위의 노코기리 코드를 "<%= %>"를 사용하여 넣어봤떠니 에러가 뜹니다.<br>
+위의 노코기리 코드를 "<% %>"를 사용하여 넣어봤더니 에러가 뜹니다.<br>
+각각의 문장을 "<% %>"사이에 담고 마지막 문장 (Put)의 역할에만 "<%= %>" 을 사용합니다.<br>
 노코기리를 쓰려면 html에 삽입하는 방식으로는 안되는 건가요.. ㅜ
