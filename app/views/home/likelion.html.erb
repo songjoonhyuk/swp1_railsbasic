@@ -1,0 +1,17 @@
+<h1>likelion!</h1>
+
+질문이 있습니다.<br><br>
+
+
+require 'nokogiri'<br>
+require 'open-uri'<br>
+<br>
+
+PAGE_URL = "http://joongang.joins.com/"<br>
+page = Nokogiri::HTML(open(PAGE_URL))<br>
+puts page.class  <br>
+
+<br>
+
+위의 노코기리 코드를 "<%= %>"를 사용하여 넣어봤떠니 에러가 뜹니다.<br>
+노코기리를 쓰려면 html에 삽입하는 방식으로는 안되는 건가요.. ㅜ
