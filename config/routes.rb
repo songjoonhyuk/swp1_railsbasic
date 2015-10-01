@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get '/favorite' => 'home#favorite'
   get '/contact' => 'home#contact'
 
-  
+  get '/img/123.jpg' => 'home#img#123'
   
   
   # The priority is based upon order of creation: first created -> highest priority.

@@ -13,5 +13,8 @@ class HomeController < ApplicationController
     
     def favorite
     end
+    
+    def img
+    end
 
 end
