@@ -3,13 +3,13 @@
 질문이 있습니다.<br><br>
 
 
-require 'nokogiri'<br>
-require 'open-uri'<br>
+<% require 'nokogiri' %><br>
+<% require 'open-uri' %><br>
 <br>
 
-PAGE_URL = "http://joongang.joins.com/"<br>
-page = Nokogiri::HTML(open(PAGE_URL))<br>
-puts page.class  <br>
+<% pu = "http://joongang.joins.com/" %><br>
+<% page = Nokogiri::HTML(open(pu))%><br>
+<%= page.class %>  <br> 
 
 <br>
 

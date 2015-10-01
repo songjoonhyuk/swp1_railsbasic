@@ -1,0 +1,749 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>중앙일보</title>
+    <link href="http://images.joins.com/ui_mobile/joongang/icon/favicon.ico" rel="shortcut icon" />
+    <link rel="apple-touch-icon-precomposed" href="http://images.joins.com/ui_mobile/joongang/icon/ios_114.png" />
+    <link rel="stylesheet" href="http://static.joins.com/joongang_15re/styles/pc/main.css">
+    <link rel="stylesheet" href="http://static.joins.com/joongang_15re/scripts/lib/jquery/ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="http://static.joins.com/joongang_15re/scripts/lib/slick.css">
+    <link rel="stylesheet" href="http://static.joins.com/joongang_15re/scripts/lib/jquery.mCustomScrollbar.min.css">
+    <style>
+        a.disable {
+            pointer-events: none;
+            cursor: default;
+        }
+
+        .sticky #body {
+            margin-top: 103px;
+        }
+    </style>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/data/menu.pc.js"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/data/daytimer.js" id="_daytimer"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/lib/jquery/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/lib/jquery/ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/lib/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/lib/jquery/plugins/jquery.dotdotdot.min.js"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/lib/jquery/plugins/jquery-deparam.js"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/lib/jquery/jquery.unobtrusive-ajax.min.js"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/lib/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/lib/transparency.js"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/lib/jwplayer.js"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/lib/swfobject.js"></script>
+    <!--[if lt IE 9]>
+        <script src="http://static.joins.com/joongang_15re/scripts/lib/html5shiv.js"></script>
+        <script src="http://static.joins.com/joongang_15re/scripts/lib/respond.min.js"></script>
+        <script src="http://static.joins.com/joongang_15re/scripts/lib/json2.js"></script>
+        <script src="http://static.joins.com/joongang_15re/scripts/lib/jquery/jquery.xdomainrequest.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/utils/jquery.utils.js"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/utils/utils.js"></script>
+
+
+</head>
+<body class="aside_off">
+    <div class="joongang_skip">
+        <dl>
+            <dt>콘텐츠 바로가기</dt>
+            <dd><a href="#sch"><span>검색 바로가기</span></a></dd>
+            <dd><a href="#menu"><span>주메뉴 바로가기</span></a></dd>
+            <dd><a href="#container"><span>주요 기사 바로가기</span></a></dd>
+            <dd><a href="#secondary"><span>다른 기사, 광고영역 바로가기</span></a></dd>
+            <dd><a href="#sitemap"><span>중앙일보 사이트맵 바로가기</span></a></dd>
+        </dl>
+    </div>
+    <div id="doc">
+        <div id="wrap" class="main">
+            <!-- 광고 120x200 -->
+            <div class="ad_120_200 ad" id="leftbanner" style="display:none;"></div>
+            <!-- //광고 120x200 -->
+            <!-- 광고 300x250 -->
+            <div class="ad_300_250 ad" id="shapepopup" style="display:none;"></div>
+            <!-- //광고 300x250 -->
+            <!-- 광고 1060x400 -->
+            <div class="ad_1060_400 ad" style="display:none;"></div>
+            <!-- //광고 1060x400 -->
+            <!-- 광고 1060x90 -->
+            <div class="ad_1060_90 ad" style="display:none;"></div>
+            <!-- //광고 1060x90 -->
+
+            <div id="gnb" class="joins_gnb gnb_joins_service"></div>
+            <div id="head">
+
+                <div class="head_top">
+
+                    <!-- 제호 -->
+                    <div class="logo_wrap">
+                        <!--@top_joongang_logo(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_top:top_joongang_logo:1:중앙일보 제호"><div class="logo">
+  <h1 class="mg"><a href="http://joongang.joins.com/?cloc=joongang|home|bi" target="_self" alt="중앙일보"></a></h1>
+</div></div><!--@top_joongang_logo(end)@-->
+                    </div>
+                    <!-- //제호 -->
+                </div>
+
+            </div>
+            <div id="nav"></div>
+            <div id="body">
+
+                <!-- 광고 970x300 -->
+                <div class="ad_970_300" style="display:none;">
+                    <div class="hd">
+                        <h3 class="hide"></h3>
+                    </div>
+                    <div class="bd clearfx">
+                        <!-- 광고 -->
+                        <a href="#none"><img src="../../images/pc/common/x_ad_970_300.jpg" alt=""></a>
+                        <!-- <iframe src="" width="970" height="300"></iframe> -->
+                    </div>
+                </div>
+                <!-- //광고 970x300 -->
+
+
+                <div id="content" class="wide">
+
+                    <!-- 스페셜 톱기사 -->
+                    <!--@showcase_special_type(start)@--><div name="divEditPartInfo" class="jover" active="no" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_showcase:showcase_special_type:1:Special type"></div><!--@showcase_special_type(end)@-->
+                    <!-- //스페셜 톱기사 -->
+
+                    <div class="main_article_wrap clearfx">
+                        <div class="clt">
+                            <!--@left_article_1(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_left:left_article_1:1:홈 왼쪽 주요기사 1"><div class="main_article">
+  <div class="hd">
+    <h2 class="hide">주요기사</h2>
+  </div>
+  <div class="bd">
+    <ul>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766568?cloc=joongang|home|newslist1big" target="_self">김무성, 친박에 경고<br/>"참는 데도 한계가 있다"</a></strong><span class="thumb"><a href="http://news.joins.com/article/18766568?cloc=joongang|home|newslist1" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001451986380.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001451986380.jpg" alt="김무성, 친박에 경고&quot;참는 데도 한계가 있다&quot;"></a></span><span class="lead"><a href="http://news.joins.com/article/18766568?cloc=joongang|home|newslist1" target="_self">새누리당 김무성 대표는 30일 오후 열린…</a></span><ul class="related_article"><li><a href="http://news.joins.com/article/18766571" total_id="18766571">청와대, 김무성 '안심 공천' 정면 비판</a></li>
+
+<li><a href="http://mediaspider.joins.com/Media/article_list.aspx?ms_id=D103519&cat_id=undefined" target=new><span style="color:#c4865a">[뉴스큐레이팅]</span>'안심번호 국민공천제'…시시각각</a></li></ul>
+      </li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766561?cloc=joongang|home|newslist1" target="_self">청와대 참모 "전화로 후보 결정하면 전 세계 웃음"</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768515?cloc=joongang|home|newslist1" target="_self">'친박' 서청원 "안심번호 활용 공천제 완전 철회하라"</a></strong><ul class="related_article"><li><a href="http://news.joins.com/article/18766567" total_id="18766567">윤상현 "안심 공천은 실패한 친노몰이 룰" </a></li></ul>
+      </li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768763?cloc=joongang|home|newslist1" target="_self"><span class='ico_breaking_news'><span>[</span>속보<span>]</span></span> 김무성 "문재인과 합의 발표 전 靑과 협의했다" </a></strong><ul class="related_article"><li><a href="http://news.joins.com/article/18767865" total_id="18767865">김무성, 최고위 전격 불참…오늘 일정 전면 취소</a></li></ul>
+      </li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768799?cloc=joongang|home|newslist1" target="_self"><span class='ico_breaking_news'><span>[</span>속보<span>]</span></span> 원유철 "2+2 회동하자"…이종걸 "생뚱맞게"</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768077?cloc=joongang|home|newslist1" target="_self">코리아 블랙프라이데이 '짝퉁주의보'…온라인은 </a></strong><span class="thumb"><a href="http://news.joins.com/article/18768077?cloc=joongang|home|newslist1" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100113920412606.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100113920412606.jpg" alt="日, 한반도유사시 일본인 피난 협의 요구…한국은 거부"></a></span><span class="lead"><a href="http://news.joins.com/article/18768077?cloc=joongang|home|newslist1" target="_self">오늘부터 시작된 ‘코리아 블랙 프라이데이’에 불청객 주의보가 내려졌다. 한국에서 대규모…</a></span><ul class="related_article"><li><a href="http://news.joins.com/article/18769760" total_id="18769760">대규모 할인행사 코리아 블랙 프라이데이 시작</a></li></ul>
+      </li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768637?cloc=joongang|home|newslist1" target="_self"><span class='ico_breaking_news'><span>[</span>속보<span>]</span></span> 환경부 "현대·기아차도 배출가스 조작 검사"    </a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768166?cloc=joongang|home|newslist1" target="_self"><span class="label_news"><span>J플러스</span></span>장성택 사냥은 2013년 1월 시작됐다 </a></strong><span class="thumb"><a href="http://news.joins.com/article/18768166?cloc=joongang|home|newslist1" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001143857125101.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001143857125101.jpg" alt="'한명숙 재판 위증' 한만호 재판, 2년 만에 재개"></a></span><span class="lead"><a href="http://news.joins.com/article/18768166?cloc=joongang|home|newslist1" target="_self">‘장성택 사냥’은 2013년 1월부터 서서히 시작됐다. 사냥을 위한 칼은 조연준(78) 노동당 조직지도부 제1부부장이 잡았다. 조 제1부부장은…</a></span></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18769331?cloc=joongang|home|newslist1" target="_self"><span class='ico_exclusive_news'><span>[</span>단독<span>]</span></span> 4년제 대학 8곳, 교비로 주식투자했다 50억 손해</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766551?cloc=joongang|home|newslist1" target="_self"> <span class='ico_exclusive_news'><span>[</span>단독<span>]</span></span> 김정일 "DJ와 낸 6·15선언은 빈 선전갑"</a></strong><span class="thumb"><a href="http://news.joins.com/article/18766551?cloc=joongang|home|newslist1" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100141215366848.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100141215366848.jpg" alt="軍, 북한 전역 타격 가능한 탄도미사일 실전배치 눈앞"></a></span><span class="lead"><a href="http://news.joins.com/article/18766551?cloc=joongang|home|newslist1" target="_self"><span style="color:#c4865a">[첫 공개된 남북 10·4 공동선언 비화]</span></a></span><ul class="related_article"><li><a href="http://news.joins.com/article/18766575" total_id="18766575">김양건, 회담 일주일 전 노 대통령 비밀리에 만나</a></li>
+
+<li><a href="http://news.joins.com/article/18766552" total_id="18766552">김양건에게 쓴 김만복 편지가 남북 정상회담 물꼬</a></li></ul>
+      </li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18770873?cloc=joongang|home|newslist1" target="_self">日, 한반도유사시 일본인 피난 협의 요구…한국은 거부</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768200?cloc=joongang|home|newslist1" target="_self">이종걸 "靑 안심번호 비판, 유승민 찍어내기 2라운드"  </a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768163?cloc=joongang|home|newslist1" target="_self">모텔, 주점에서 주는 공짜 생수…알고보니</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18769072?cloc=joongang|home|newslist1" target="_self">北 김정은, 시진핑에게 두 문장 축전…냉랭한 북중관계</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18769435?cloc=joongang|home|newslist1" target="_self">'한명숙 재판 위증' 한만호 재판, 2년 만에 재개</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18770292?cloc=joongang|home|newslist1" target="_self"><span class="label_news"><span>카드뉴스</span></span> 참전 용사 할아버지들께 듣는 전쟁 이야기</a></strong><span class="thumb"><a href="http://news.joins.com/article/18770292?cloc=joongang|home|newslist1" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100114415146356.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100114415146356.jpg" alt=""></a></span><span class="lead"><a href="http://news.joins.com/article/18770292?cloc=joongang|home|newslist1" target="_self">참전 당시 18세, 연필을 버리고 총을 들었던 엄봉용(82세). 한국전쟁 당시 분위기가 어땠나요? 윗사람이 시키는 대로만 움직였지. 다 나이가 어렸으니까…</a></span></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18771153?cloc=joongang|home|newslist1" target="_self">일본 무기 수출 본격화하나…방위장비청 1일 출범</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18769648?cloc=joongang|home|newslist1" target="_self">'여명808' 제조사 대표, 술자리서 맥주잔 던져 기소</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18767449?cloc=joongang|home|newslist1" target="_self">軍, 북한 전역 타격 가능한 탄도미사일 실전배치 눈앞</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18769292?cloc=joongang|home|newslist1" target="_self">고1부터 수능영어 90점이상→1등급, 지난해 기준 16%</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768549?cloc=joongang|home|newslist1" target="_self">'성폭행 의혹' 심학봉 의원 검찰 출석…"죄송합니다"</a></strong></li>
+    </ul>
+  </div>
+</div></div><!--@left_article_1(end)@-->
+                        </div>
+                        <div class="crt">
+                            <!-- 톱기사 type1 -->
+                            <!--@showcase_type_1(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_showcase:showcase_type_1:1:Type 1"><div class="top_article">
+  <div class="hd">
+    <h2 class="hide">톱기사</h2>
+  </div>
+  <div class="bd">
+    <div class="type1-1"><span class="thumb"><a href="http://joongang.joins.com/special/classroom/?cloc=joongang|home|topnews1" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001102356299633.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001102356299633.jpg" alt="[중앙일보 대학평가-별별랭킹②] 강의실 만족도 높은 대학 1위는…"><span class="mask"></span></a></span><div class="text_area"><strong class="headline mg"><a href="http://joongang.joins.com/special/classroom/?cloc=joongang|home|topnews1" target="_self"><span style="color:#c4865a">[중앙일보 대학평가-별별랭킹②]</span><br/> 강의실 만족도 높은 대학 1위는…</a></strong><span class="lead"><a href="http://joongang.joins.com/special/classroom/?cloc=joongang|home|topnews1" target="_self">대학생들이 주로 머무는 공간. 강의실에 대한 만족도가 가장 높은 대학은 어디일까? 전국 37개 대학 재학생 6800명을 일대일 면접 조사한 결과 궁금하시죠?</a></span><ul class="related_article"><li><a href="http://joongang.joins.com/special/universityfood"><span style="color:#c4865a">[중앙일보 대학평가-별별랭킹①]</span> 최강 학생식당 어디?</a></li></ul>
+      </div>
+    </div>
+  </div>
+</div></div><!--@showcase_type_1(end)@-->
+                            
+                            <!-- //톱기사 type1 -->
+                            <!-- 톱기사 type2 -->
+                            <div name="divEditPartInfo" class="jover" active="no" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_showcase:showcase_type_2:1:Type 2"></div>
+                            <!-- //톱기사 type2 -->
+                            <!-- 톱기사 type3 -->
+                            <div name="divEditPartInfo" class="jover" active="no" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_showcase:showcase_type_3:1:Type 3"></div>
+                            <!-- //톱기사 type3 -->
+                            <!-- 화제의 클릭 -->
+                            <!--@right_edit_article(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_right:right_edit_article:1:홈 오른쪽 편집기사"><div class="topic_click">
+  <div class="hd">
+    <h2 class="hide">화제의 클릭</h2>
+  </div>
+  <div class="bd">
+    <div class="slide_wrap">
+      <div class="slide_list">
+        <div class="slide">
+          <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18765451?cloc=joongang|home|subtop" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_20150930211647871507.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_20150930211647871507.jpg" alt="헬조선에서 죽을 만큼 '노오오력' 해봤냐고?"><span class="mask"></span></a></span><strong class="headline"><a href="http://news.joins.com/article/18765451?cloc=joongang|home|subtop" target="_self"><strong>헬조선에서 죽을 만큼 '노오오력' 해봤냐고?</strong></a></strong></div>
+        </div>
+        <div class="slide">
+          <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18766516?cloc=joongang|home|subtop" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510012331922314.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510012331922314.jpg" alt="['히든싱어4' 모레 첫방]역시 보아…"><span class="mask"></span></a></span><strong class="headline"><a href="http://news.joins.com/article/18766516?cloc=joongang|home|subtop" target="_self"><strong>['히든싱어4' 모레 첫방]<br/>역시 보아…</strong></a></strong></div>
+        </div>
+        <div class="slide">
+          <div class="text_area"><span class="thumb"><a href="http://news.joins.com/opinion/journalist/1119?cloc=joongang|home|subtop" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100122039127191.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100122039127191.jpg" alt="[대기자 페이지]박보균 칼럼"><span class="mask"></span></a></span><strong class="headline"><a href="http://news.joins.com/opinion/journalist/1119?cloc=joongang|home|subtop" target="_self"><strong>[대기자 페이지]<br/>박보균 칼럼</strong></a></strong></div>
+        </div>
+      </div>
+      <div class="btn_wrap" style="display:none;"><button type="button" class="btn-prev"><span class="hide">이전</span></button><span class="info"><strong><span class="hide">현재페이지</span><span class="current_page"></span></strong><span class="bar"></span><em><span class="hide">전체페이지</span><span class="total_page">3</span></em></span><button type="button" class="btn-next"><span class="hide">다음</span></button></div>
+    </div>
+  </div>
+</div></div><!--@right_edit_article(end)@-->
+                            <!-- //화제의 클릭 -->
+
+                            <div class="column_wrap clearfx">
+                                <div class="clt">
+                                    <!-- 오늘의 컬럼 -->
+                                    <!--@right_today_column(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_right:right_today_column:1:홈 오른쪽 오늘의 칼럼"><div class="today_column">
+  <div class="hd">
+    <h2 class="subtit_comm"><a href="http://joongang.joins.com/opinion/" target="_self">오늘의 칼럼</a></h2>
+  </div>
+  <div class="bd">
+    <div class="toggle_wrap toggle_off">
+      <ul>
+        <li><span class="photo"><a href="http://news.joins.com/article/18766475?cloc=joongang|home|opinion" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510011471718672.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510011471718672.jpg" alt="북한 알기가 통일이다"><span class="frame"></span></a></span><span class="text_wrap"><span class="text_center"><strong class="headline mg"><a href="http://news.joins.com/article/18766475?cloc=joongang|home|opinion" target="_self">북한 알기가 통일이다</a></strong><em><a href="http://news.joins.com/article/18766475?cloc=joongang|home|opinion" target="_self">박보균 대기자</a></em></span><span class="valign_fix"></span></span></li>
+        <li><span class="photo"><a href="http://news.joins.com/article/18766477?cloc=joongang|home|opinion" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510011489453263.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510011489453263.jpg" alt="박보균 대기자"><span class="frame"></span></a></span><span class="text_wrap"><span class="text_center"><strong class="headline mg"><a href="http://news.joins.com/article/18766477?cloc=joongang|home|opinion" target="_self">최경환 경제부총리의…</a></strong><em><a href="http://news.joins.com/article/18766477?cloc=joongang|home|opinion" target="_self">이정재 논설위원</a></em></span><span class="valign_fix"></span></span></li>
+        <li><span class="text_wrap"><span class="text_center"><strong class="headline mg"><a href="http://news.joins.com/article/18766484?cloc=joongang|home|opinion" target="_self">[사설] 평화통일 청사진 제시한 '평화 오디세이 2015'</a></strong><em><a href="http://news.joins.com/article/18766484?cloc=joongang|home|opinion" target="_self"></a></em></span><span class="valign_fix"></span></span></li>
+        <li><span class="photo"><a href="http://news.joins.com/article/18766490?cloc=joongang|home|opinion" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510012136979475.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510012136979475.jpg" alt="이정재 논설위원"><span class="frame"></span></a></span><span class="text_wrap"><span class="text_center"><strong class="headline mg"><a href="http://news.joins.com/article/18766490?cloc=joongang|home|opinion" target="_self">[서소문 포럼] 대학은 떳떳한가</a></strong><em><a href="http://news.joins.com/article/18766490?cloc=joongang|home|opinion" target="_self">양영유 논설위원 </a></em></span><span class="valign_fix"></span></span></li>
+        <li><span class="text_wrap"><span class="text_center"><strong class="headline mg"><a href="http://news.joins.com/article/18766476?cloc=joongang|home|opinion" target="_self">[분수대] 듀티 콜</a></strong><em><a href="http://news.joins.com/article/18766476?cloc=joongang|home|opinion" target="_self"></a></em></span><span class="valign_fix"></span></span></li>
+        <li><span class="text_wrap"><span class="text_center"><strong class="headline mg"><a href="?cloc=joongang|home|opinion" target="_self"></a></strong><em><a href="?cloc=joongang|home|opinion" target="_self"></a></em></span><span class="valign_fix"></span></span></li>
+        <li><span class="text_wrap"><span class="text_center"><strong class="headline mg"><a href="?cloc=joongang|home|opinion" target="_self"></a></strong><em><a href="?cloc=joongang|home|opinion" target="_self"></a></em></span><span class="valign_fix"></span></span></li>
+        <li><span class="text_wrap"><span class="text_center"><strong class="headline mg"><a href="?cloc=joongang|home|opinion" target="_self"></a></strong><em><a href="?cloc=joongang|home|opinion" target="_self"></a></em></span><span class="valign_fix"></span></span></li>
+      </ul><a class="btn_toggle"><span class="icon">열기/닫기</span></a></div>
+  </div>
+  <div class="ft"><a class="add" href="http://joongang.joins.com/opinion/" target="_self"><span class="hide">오늘의 컬럼</span>더보기<span class="icon"></span></a></div>
+</div></div><!--@right_today_column(end)@-->
+                                    <!-- //오늘의 컬럼 -->
+                                    <!-- 포털 검색어 -->
+                                    <!--@right_realtime_searchword(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_right:right_realtime_searchword:1:홈 오른쪽 포털 실시간 주요 검색어"><div class="portal_search">
+  <div class="hd">
+    <h2 class="hide">포털 검색어</h2>
+  </div>
+  <div class="bd">
+    <div class="keyword"><strong class="mg">
+            주요 포털 실시간 검색어<span class="icon"></span></strong></div>
+    <ul class="clearfx">
+      <li><a href="http://news.joins.com/article/18767305?cloc=joongang|home|realtimekeyword" target="_self"><strong>블랙 프라이데이</strong></a></li>
+      <li><a href="http://news.joins.com/article/18771527?cloc=joongang|home|realtimekeyword" target="_self">용팔이 마지막회</a></li>
+      <li><a href="http://news.joins.com/article/18767091?cloc=joongang|home|realtimekeyword" target="_self">에일리 컴백</a></li>
+      <li><a href="http://news.joins.com/article/18769765?cloc=joongang|home|realtimekeyword" target="_self"><strong>수요미식회</strong></a></li>
+      <li><a href="http://news.joins.com/article/18771479?cloc=joongang|home|realtimekeyword" target="_self"><strong>삼둥이 군복</strong></a></li>
+      <li><a href="http://news.joins.com/article/18770431?cloc=joongang|home|realtimekeyword" target="_self">손흥민 부상</a></li>
+      <li><a href="http://news.joins.com/article/18755655?cloc=joongang|home|realtimekeyword" target="_self">피로회복 체조</a></li>
+      <li><a href="http://news.joins.com/article/18771186?cloc=joongang|home|realtimekeyword" target="_self"><strong>서울불꽃축제</strong></a></li>
+      <li><a href="http://news.joins.com/article/18767108?cloc=joongang|home|realtimekeyword" target="_self"><strong>라디오스타 슬기</strong></a></li>
+      <li><a href="http://news.joins.com/article/18767107?cloc=joongang|home|realtimekeyword" target="_self">돼지국밥 만들기</a></li>
+    </ul>
+  </div>
+</div></div><!--@right_realtime_searchword(end)@-->
+                                    <!-- //포털 검색어 -->
+                                </div>
+                                <div class="crt">
+                                    <!-- DA 300 -->
+                                    <div class="da_300" data-widget-type="Ad" data-widget-service="display_679" style="display:none;"></div>
+                                    <!-- //DA 300 -->
+                                    <!-- 인기 기자 -->
+                                    <!--@right_today_reporter(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_right:right_today_reporter:1:홈 오른쪽 오늘의 기자"><div class="reporter_pr">
+  <div class="hd">
+    <h2 class="subtit_comm">오늘의 기자</h2>
+  </div>
+  <div class="bd">
+    <div class="slide_wrap">
+      <div class="slide_list">
+        <div class="slide"><span class="profile"><span class="photo"><a href="http://news.joins.com/reporter/1147" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510011012137242.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510011012137242.jpg" alt="백민정"><span class="frame"></span></a></span><strong class="mg"><a href="http://news.joins.com/reporter/1147" target="_self">백민정</a></strong><em><a href="http://news.joins.com/reporter/1147" target="_self">사회부문 기자</a></em></span><div class="reporter_article mg">
+            <ul class="related_article"><li><a href="http://news.joins.com/article/18760416" total_id="18760416">법원, 변태 성관계 요구 남편에 혼인파탄…</a></li>
+
+<li><a href="http://news.joins.com/article/18746122" total_id="18746122">이태원 살인사건 첫 재판 8일로 연기</a></li></ul>
+          </div>
+        </div>
+        <div class="slide"><span class="profile"><span class="photo"><a href="http://news.joins.com/reporter/1156" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093041152339645.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093041152339645.jpg" alt="백민정"><span class="frame"></span></a></span><strong class="mg"><a href="http://news.joins.com/reporter/1156" target="_self">서유진</a></strong><em><a href="http://news.joins.com/reporter/1156" target="_self">정치국제부문 기자</a></em></span><div class="reporter_article mg">
+            <ul class="related_article"><li><a href="http://news.joins.com/article/18758807" total_id="18758807">일본 '연인 삼고싶은 배우 1위' 결혼</a></li>
+
+<li><a href="http://news.joins.com/article/18740886" total_id="18740886">'하반신 농구공' 中소녀의 인생스토리</a></li></ul>
+          </div>
+        </div>
+        <div class="slide"><span class="profile"><span class="photo"><a href="http://news.joins.com/reporter/1309" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/26/wimg_2015092693540557081.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/26/wimg_2015092693540557081.jpg" alt="사회부문 기자"><span class="frame"></span></a></span><strong class="mg"><a href="http://news.joins.com/reporter/1309" target="_self">정용수</a></strong><em><a href="http://news.joins.com/reporter/1309" target="_self">정치국제부문 기자</a></em></span><div class="reporter_article mg">
+            <ul class="related_article"><li><a href="http://news.joins.com/article/18747783" total_id="18747783">청와대 ‘한국형 전투기’ 사업 조사 착수</a></li>
+
+<li><a href="http://news.joins.com/article/18741992" total_id="18741992">KF-X 핵심기술 확보 힘든데 “도와줄 곳 있다”는 방사청</a></li></ul>
+          </div>
+        </div>
+      </div><button type="button" class="btn-prev">이전</button><button type="button" class="btn-next">다음</button></div>
+  </div>
+</div></div><!--@right_today_reporter(end)@-->
+                                    <!-- //인기 기자 -->
+                                    <!-- 기자 QA -->
+                                    <!--@right_reporter_qa(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_right:right_reporter_qa:1:홈 오른쪽 기자 QA"><div class="reporter_qna">
+  <div class="hd">
+    <h2 class="hide">기자 Q&amp;A</h2>
+  </div>
+  <div class="bd">
+    <p class="mg"><span class="icon">Q&amp;A</span> 중앙일보 기자에게 묻습니다.</p>
+    <dl>
+      <dt class="mg"><span class="icon">Q</span><a href="http://news.joins.com/reporter/1000#ToReporter?cloc=joongang|home|todayreporter" target="_self">블랙 프라이데이는 어떤 건가요?</a></dt>
+    </dl>
+  </div>
+</div></div><!--@right_reporter_qa(end)@-->
+                                    <!-- //기자 QA -->
+                                </div>
+                            </div>
+
+                            <!-- 내부 홍보 배너 -->
+                            <div class="promotion_banner03">
+                                <div class="hd"><h2 class="hide">내부 홍보 배너</h2></div>
+                                <div class="bd">
+                                    <div id="divpro_1" style="display:none;"><a href="http://joongang.joins.com/special/jp/testimony1.html" target="_self"><img src="http://images.joins.com/ui_joins/news14/topbanner/pc_reporterunder_jp_52.gif" alt="JP툰" style="vertical-align:top;"><span class="mask"></span></a></div>
+                                    <div id="divpro_2" style="display:none;"><a href="http://joongang.joins.com/special/peaceOdyssey/index.html" target="_self"><img src="http://images.joins.com/ui_joins/news14/topbanner/pc_reporterunder_odyseey_52.gif" alt="평화 오디세이" style="vertical-align:top;"><span class="mask"></span></a></div>
+                                    <div id="divpro_3" style="display:none;"><a href="javascript:void(0);"><img src="http://images.joins.com/ui_joins/news14/topbanner/pc_reporterunder_ranking_52.gif" alt="별별대학랭킹" style="vertical-align:top;"><span class="mask"></span></a></div>
+                                </div>
+                            </div>
+                            <!-- //내부 홍보 배너 -->
+                        </div>
+                    </div>
+
+                    <!-- Special Article -->
+                    <!--@middle_special_article(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_middle:middle_special_article:1:홈 중간 뉴스라운드"><div class="black_area special_article" id="special_article">
+  <div class="hd">
+    <h2 class="subtit_comm">디지털 스페셜</h2>
+  </div>
+  <div class="bd">
+    <div class="slide_wrap">
+      <div class="slide_box" style="overflow:hidden;">
+        <div class="slide_list">
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://joongang.joins.com/special/jp/testimony2.html?cloc=joongang|home|newsround" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093083556746517.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093083556746517.jpg" alt="[무빙웹툰②] 총격전 끝에 한강돌파, KBS 장악 후…"><span class="shadow"></span></a></span><strong class="headline mg"><a href="http://joongang.joins.com/special/jp/testimony2.html?cloc=joongang|home|newsround" target="_self">[무빙웹툰②] <br/>총격전 끝에 한강돌파, KBS 장악 후…</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://joongang.joins.com/special/jp/testimony1.html?cloc=joongang|home|newsround" target="_blank"><img src="http://wimage.joins.com/indexedit/joongang/201509/24/wimg_2015092416508268247.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/24/wimg_2015092416508268247.jpg" alt="[무빙 웹툰①]안돼, 군인들 간의 유혈사태는…"><span class="shadow"></span></a></span><strong class="headline mg"><a href="http://joongang.joins.com/special/jp/testimony1.html?cloc=joongang|home|newsround" target="_blank">[무빙 웹툰①]<br/>안돼, 군인들 간의 유혈사태는…</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18768656?cloc=joongang|home|newsround" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001142830923063.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001142830923063.jpg" alt="[카드뉴스] 근현대문화사를 품은 창신동·체부동 거리"><span class="shadow"></span></a></span><strong class="headline mg"><a href="http://news.joins.com/article/18768656?cloc=joongang|home|newsround" target="_self">[카드뉴스] 근현대문화사를 품은 창신동·체부동 거리</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18764395?cloc=joongang|home|newsround" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_20150930172326699939.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_20150930172326699939.jpg" alt="중앙 50년 미디어 컨퍼런스 내일로 통하다 2부"><span class="shadow"></span></a></span><strong class="headline mg"><a href="http://news.joins.com/article/18764395?cloc=joongang|home|newsround" target="_self">중앙 50년 미디어 컨퍼런스<br/> 내일로 통하다 2부</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18764364?cloc=joongang|home|newsround" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_20150930172043901488.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_20150930172043901488.jpg" alt="중앙 50년 미디어 컨퍼런스 내일로 통하다 1부"><span class="shadow"></span></a></span><strong class="headline mg"><a href="http://news.joins.com/article/18764364?cloc=joongang|home|newsround" target="_self">중앙 50년 미디어 컨퍼런스<br/> 내일로 통하다 1부</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://joongang.joins.com/special/universityfood?cloc=joongang|home|newsround" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/25/wimg_201509251934439912.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/25/wimg_201509251934439912.jpg" alt="[중앙일보 대학평가]최강 학생식당 어디?"><span class="shadow"></span></a></span><strong class="headline mg"><a href="http://joongang.joins.com/special/universityfood?cloc=joongang|home|newsround" target="_self">[중앙일보 대학평가]</br>최강 학생식당 어디?</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18752478?cloc=joongang|home|newsround" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093092552694532.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093092552694532.jpg" alt="제주에서 커피 한 잔 할래요?"><span class="shadow"></span></a></span><span class="label_cover"><span class="hide">COVER</span></span><strong class="headline mg"><a href="http://news.joins.com/article/18752478?cloc=joongang|home|newsround" target="_self">제주에서 커피 한 잔 할래요?</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://joongang.joins.com/special/peaceOdyssey/intro.html?cloc=joongang|home|newsround" target="_blank"><img src="http://wimage.joins.com/indexedit/joongang/201509/24/wimg_20150924165316366555.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/24/wimg_20150924165316366555.jpg" alt="[디지털 스토리텔링]평화오디세이 2015"><span class="shadow"></span></a></span><strong class="headline mg"><a href="http://joongang.joins.com/special/peaceOdyssey/intro.html?cloc=joongang|home|newsround" target="_blank">[디지털 스토리텔링]<br/>평화오디세이 2015</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://joongang.joins.com/special/comfortWomen/?cloc=joongang|home|newsround" target="_blank"><img src="http://wimage.joins.com/indexedit/joongang/201509/24/wimg_20150924164534416083.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/24/wimg_20150924164534416083.jpg" alt="[스토리텔링]위안부 고통의 목소리…눈물로 핀 꽃 "><span class="shadow"></span></a></span><strong class="headline mg"><a href="http://joongang.joins.com/special/comfortWomen/?cloc=joongang|home|newsround" target="_blank">[스토리텔링]<br/>위안부 고통의 목소리…눈물로 핀 꽃 </a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18719585?cloc=joongang|home|newsround" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/22/wimg_20150922113555292488.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/22/wimg_20150922113555292488.jpg" alt="반기문의 영어실력은 40점?"><span class="shadow"></span></a></span><span class="label_piki"><span class="hide">터치뉴스</span></span><strong class="headline mg"><a href="http://news.joins.com/article/18719585?cloc=joongang|home|newsround" target="_self">반기문의 영어실력은 40점?</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18733668?cloc=joongang|home|newsround" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/24/wimg_2015092410614455330.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/24/wimg_2015092410614455330.jpg" alt="키웨스트, 찬란한 볕에 취하다"><span class="shadow"></span></a></span><span class="label_cover"><span class="hide">COVER</span></span><strong class="headline mg"><a href="http://news.joins.com/article/18733668?cloc=joongang|home|newsround" target="_self">키웨스트, 찬란한 볕에 취하다</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18703006?cloc=joongang|home|newsround" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/20/wimg_2015092063215355626.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/20/wimg_2015092063215355626.jpg" alt="'강남 클럽'의 6가지 비밀"><span class="shadow"></span></a></span><span class="label_piki"><span class="hide">터치뉴스</span></span><strong class="headline mg"><a href="http://news.joins.com/article/18703006?cloc=joongang|home|newsround" target="_self">'강남 클럽'의 6가지 비밀</a></strong></div>
+          </div>
+        </div>
+      </div><span class="frame"></span><button type="button" class="btn-prev">이전</button><button type="button" class="btn-next">다음</button></div>
+  </div>
+</div></div><!--@middle_special_article(end)@-->
+                    <!-- //Special Article -->
+
+                    <div class="clearfx">
+                        <div class="clt">
+
+                            <!-- 주요기사 -->
+                            <!--@left_article_2(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_left:left_article_2:1:홈 왼쪽 주요기사 2"><div class="main_article">
+  <div class="hd">
+    <h2 class="hide">주요기사</h2>
+  </div>
+  <div class="bd">
+    <ul>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766548?cloc=joongang|home|newslist2big" target="_self">코펜하겐 한국대사관,<br/>벽 헐다 덴마크 국보 찾아</a></strong><span class="thumb"><a href="http://news.joins.com/article/18766548?cloc=joongang|home|newslist2" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001135553703908.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001135553703908.jpg" alt="코펜하겐 한국대사관,벽 헐다 덴마크 국보 찾아"></a></span><span class="lead"><a href="http://news.joins.com/article/18766548?cloc=joongang|home|newslist2" target="_self">공사 중 철거될 뻔한 주덴마크 한국대사관의 리셉션홀 벽이 덴마크의 국가문화재 반열에 오르게 됐다. 수도 코펜하겐의 외곽 마을인 샬롯데룬드에 있는…</a></span></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18769333?cloc=joongang|home|newslist2" target="_self">중국 광시좡족 자치구서 또 폭발사건, 6층 빌딩서…</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766492?cloc=joongang|home|newslist2" target="_self">선진국인 한국이 왜 해외 입양을 보내나</a></strong><span class="thumb"><a href="http://news.joins.com/article/18766492?cloc=joongang|home|newslist2" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100121658497034.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100121658497034.jpg" alt="서울정원박람회, '위안부 소녀의 정원' 등 볼거리 풍성"></a></span><span class="lead"><a href="http://news.joins.com/article/18766492?cloc=joongang|home|newslist2" target="_self"><span style="color:#c4865a">[알베르토 몬디의 비정상의 눈]</span> 알베르토 몬디JTBC ‘비정상회담’ 출연자몇 년 전의 일이다. 한국에서 이탈리아로 입양됐던 30대 후반 여성을…</a></span></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18770230?cloc=joongang|home|newslist2" target="_self">대학교 국방 관련 학과 '뜨는 전공'된 이유 보니</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18770295?cloc=joongang|home|newslist2" target="_self">서울정원박람회, '위안부 소녀의 정원' 등 볼거리 풍성</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18769280?cloc=joongang|home|newslist2" target="_self">국내 메르스 첫 확진자 퇴원, 보건당국 6일만에 공개</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766556?cloc=joongang|home|newslist2" target="_self">유니클로 회장 "지갑은 하나…내 경쟁자는 애플"</a></strong><span class="thumb"><a href="http://news.joins.com/article/18766556?cloc=joongang|home|newslist2" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001102619227719.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001102619227719.jpg" alt="직장인 인기 '수액주사'의 진실…&quot;밥 한끼 잘 드세요&quot;"></a></span><ul class="related_article"><li><a href="http://news.joins.com/article/18766569" total_id="18766569">수차례 망해봤다, 그래서 얻은 결론은…</a></li>
+
+<li><a href="http://news.joins.com/article/18766560" total_id="18766560">"안정 경영? 그걸로 1등 못해, 도박 같은 결단 필요"</a></li>
+
+<li><a href="http://news.joins.com/article/18766557" total_id="18766557">동일본 대지진 직후에도 골프장 찾아…야나이 회장의 튀는 스타일</a></li></ul>
+      </li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768740?cloc=joongang|home|newslist2" target="_self">"술이 안깨서" 대학 셔틀버스 기사 만취운전으로 입건</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768889?cloc=joongang|home|newslist2" target="_self">박 대통령 "북한 핵 포기하고 대화의 장으로 나와야"</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18769241?cloc=joongang|home|newslist2" target="_self">北 김정은, 제약공장 시찰…"모범적 공장 따라 배워라"</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766538?cloc=joongang|home|newslist2" target="_self">한때 중국인에 팔릴 위기…체부동교회, 예술벨트로</a></strong><span class="thumb"><a href="http://news.joins.com/article/18766538?cloc=joongang|home|newslist2" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100124832732015.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100124832732015.jpg" alt=""></a></span><span class="lead"><a href="http://news.joins.com/article/18766538?cloc=joongang|home|newslist2" target="_self"><span style="color:#c4865a">[서울 미래유산 - 근대 문화의 산실]</span> 서울 경복궁역 2번 출구 앞 금천교 시장. 좁은 시장 골목에 들어서면 양편으로 철물점과 고깃집, 호프집 같은…</a></span></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766539?cloc=joongang|home|newslist2" target="_self"> <span class='ico_exclusive_news'><span>[</span>단독<span>]</span></span>백남준 생가·박수근 가옥, 골목길 답사 생긴다</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766519?cloc=joongang|home|newslist2" target="_self">직장인 인기 '수액주사'의 진실…"밥 한끼 잘 드세요"</a></strong><span class="thumb"><a href="http://news.joins.com/article/18766519?cloc=joongang|home|newslist2" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100183527832110.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100183527832110.jpg" alt=""></a></span><span class="lead"><a href="http://news.joins.com/article/18766519?cloc=joongang|home|newslist2" target="_self"><span style="color:#c4865a">[건강한 목요일]</span> 회사원 이모씨는 지난달 초…</a></span><ul class="related_article"><li><a href="http://news.joins.com/article/18766520" total_id="18766520"> 대장암 유전자 가졌다면 50세 전 암 확률 90%</a></li>
+
+<li><a href="http://mediaspider.joins.com/Media/article_list.aspx?ms_id=D103518&cat_id=undefined" target=new><span style="color:#c4865a"> [뉴스큐레이팅]</span> 피곤하고 지친 몸, 스스로 챙기자 </a></li></ul>
+      </li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18769395?cloc=joongang|home|newslist2" target="_self">추신수, 8경기 연속 안타 행진…이달의 선수 유력 후보</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18769206?cloc=joongang|home|newslist2" target="_self">타이타닉호 마지막 점심메뉴표 1억원에 낙찰</a></strong><span class="thumb"><a href="http://news.joins.com/article/18769206?cloc=joongang|home|newslist2" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001115656346249.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001115656346249.jpg" alt=""></a></span><span class="lead"><a href="http://news.joins.com/article/18769206?cloc=joongang|home|newslist2" target="_self">100여 년 전 북극해를 항해하다 빙산과 부딪쳐 침몰한 호화여객선 타이타닉호의 마지막 점심 메뉴 표가 경매에서 8만8000 달러(약1억 388만원)에 낙찰…</a></span></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768657?cloc=joongang|home|newslist2" target="_self">동성애 관대한 교황, 동성결혼 반대 美법원 서기 격려</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18746530?cloc=joongang|home|newslist2" target="_self"><span class="label_news"><span>J플러스</span></span> JTBC 입사 가이드북 '이런 인재를 원한다'</a></strong></li>
+    </ul>
+  </div>
+</div></div><!--@left_article_2(end)@-->
+                            <!-- //주요기사 -->
+
+                        </div>
+                        <div class="crt">
+
+                            <!-- 포토 이슈 -->
+                            <!--@right_photo_issue(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_right:right_photo_issue:1:홈 오른쪽 포토 이슈"><div class="photo_issue">
+  <div class="hd">
+    <h2 class="subtit_comm">포토 이슈</h2>
+  </div>
+  <div class="bd">
+    <div class="slide_wrap">
+      <div class="slide_list">
+        <div class="slide"><span class="thumb"><a href="http://news.joins.com/article/18766553?cloc=joongang|home|photoissue" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510018573529217.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510018573529217.jpg" alt="“내 폴크스바겐은 문제 없나” "><span class="shadow"></span></a></span><strong class="headline mg"><a href="http://news.joins.com/article/18766553?cloc=joongang|home|photoissue" target="_self">“내 폴크스바겐은 문제 없나” </a></strong></div>
+      </div>
+      <div class="thumb_list">
+        <ul class="clearfx">
+          <li class="on"><span class="thumb"><a href="http://news.joins.com/article/18766553?cloc=joongang|home|photoissue" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510018573529217.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510018573529217.jpg" alt="“내 폴크스바겐은 문제 없나” "><span class="frame"></span></a></span></li>
+          <li><span class="thumb"><a href="http://news.joins.com/article/18766548?cloc=joongang|home|photoissue" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100185850734131.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100185850734131.jpg" alt="한국대사관 벽 헐다 덴마크 국보 찾았다"><span class="frame"></span></a></span></li>
+          <li><span class="thumb"><a href="http://news.joins.com/article/18766526?cloc=joongang|home|photoissue" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510019055358268.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510019055358268.jpg" alt="전기없이 살아가는 북한"><span class="frame"></span></a></span></li>
+          <li><span class="thumb"><a href="http://news.joins.com/article/18758915?cloc=joongang|home|photoissue" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093081034304660.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093081034304660.jpg" alt=" ‘수퍼문’ 못 보신 분, 소원 빌어보세요"><span class="frame"></span></a></span></li>
+          <li><span class="thumb"><a href="http://news.joins.com/article/18758882?cloc=joongang|home|photoissue" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093081224818656.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093081224818656.jpg" alt="“화성에 길이 100m 소금물 개천”"><span class="frame"></span></a></span></li>
+          <li><span class="thumb"><a href="http://news.joins.com/article/18758813?cloc=joongang|home|photoissue" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093081516876118.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093081516876118.jpg" alt="추석 연휴에도 쉴 틈 없네요"><span class="frame"></span></a></span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div></div><!--@right_photo_issue(end)@-->
+                            <!-- //포토 이슈 -->
+                            <!-- 내부 홍보 배너 -->
+                            <!--@right_band_banner(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_right:right_band_banner:1:홈 오른쪽 띠 배너"><div class="promotion_banner01">
+  <div class="hd">
+    <h2 class="hide">내부 홍보 배너</h2>
+  </div>
+  <div class="bd"><a href="http://joongang.joins.com/2015/nextjoongang.html" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/22/wimg_2015092294927105336.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/22/wimg_2015092294927105336.jpg" alt="2015 중앙일보 개편"></a></div>
+  <div class="bd"><a href="http://ourhistory.joins.com/index.do" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/22/wimg_20150922103831737807.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/22/wimg_20150922103831737807.jpg" alt="Our History"></a></div>
+  <div class="bd"><a href="http://tong.joins.com" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/22/wimg_201509229495456081.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/22/wimg_201509229495456081.jpg" alt="TONG"></a></div>
+</div></div><!--@right_band_banner(end)@-->
+                            <!-- //내부 홍보 배너 -->
+                            <!-- 트렌드 뉴스 -->
+                            <div class="trend_news" data-widget-type="HomeTrendNews"></div>
+                            <!-- //트렌드 뉴스 -->
+                            <!-- JTBC 뉴스룸 -->
+                            <!--@right_jtbc_newsroom(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_right:right_jtbc_newsroom:1:홈 오른쪽 jtbc 뉴스룸"><div class="jtbc_newsroom">
+  <div class="hd">
+    <h2 class="subtit_comm"><a href="javascript:void(0);">JTBC 뉴스룸</a></h2>
+  </div>
+  <div class="bd">
+    <div id="div_weekdays" class="onair" style="display:none;"><a href="http://news.joins.com/jtbc?cloc=joongang|home|jtbcnewsroom" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/23/wimg_2015092317398358951.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/23/wimg_2015092317398358951.jpg" alt="JTBC 주말 뉴스룸"></a></div>
+    <div id="div_weekend" class="onair" style="display:none;"><a href="http://news.joins.com/jtbc?cloc=joongang|home|jtbcnewsroom" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/23/wimg_20150923173850839667.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/23/wimg_20150923173850839667.jpg" alt="JTBC 평일 뉴스룸"></a></div>
+    <ul class="clearfx">
+      <li><span class="thumb"><a href="http://news.joins.com/article/18765920?cloc=joongang|home|jtbcnewsroom" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_20150930211931586361.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_20150930211931586361.jpg" alt="[브리핑] '지게차 사망사고' 업체 대표 영장 신청"><span class="icon_video"></span></a></span><strong class="headline"><a href="http://news.joins.com/article/18765920?cloc=joongang|home|jtbcnewsroom" target="_self">[브리핑] '지게차 사망사고' 업체 대표 영장 신청</a></strong></li>
+      <li><span class="thumb"><a href="http://news.joins.com/article/18765915?cloc=joongang|home|jtbcnewsroom" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093021209862027.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093021209862027.jpg" alt="예멘 예식장 폭격에 131명 숨져…최악의 참사"><span class="icon_video"></span></a></span><strong class="headline"><a href="http://news.joins.com/article/18765915?cloc=joongang|home|jtbcnewsroom" target="_self">예멘 예식장 폭격에 131명 숨져…최악의 참사</a></strong></li>
+      <li><span class="thumb"><a href="http://news.joins.com/article/18765911?cloc=joongang|home|jtbcnewsroom" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_20150930212039425894.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_20150930212039425894.jpg" alt="낚시 명당? '테트라포드'…매년 백여명 추락"><span class="icon_video"></span></a></span><strong class="headline"><a href="http://news.joins.com/article/18765911?cloc=joongang|home|jtbcnewsroom" target="_self">낚시 명당? '테트라포드'…매년 백여명 추락</a></strong></li>
+    </ul>
+  </div>
+</div></div><!--@right_jtbc_newsroom(end)@-->
+                            <!-- //JTBC 뉴스룸 -->
+
+                        </div>
+                    </div>
+
+                    <!-- 포토&middot;영상 -->
+                    <!--@bottom_photo_vod(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_bottom:bottom_photo_vod:1:홈 하단 포토 영상"><div class="black_area photo_video">
+  <div class="hd">
+    <h2 class="subtit_comm">포토·동영상</h2>
+  </div>
+  <div class="bd">
+    <div class="slide_wrap">
+      <div class="slide_box" style="overflow:hidden;">
+        <div class="slide_list">
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18763140?cloc=joongang|home|photovod" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093011432647999.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093011432647999.jpg" alt="[비정상칼럼쇼 19회 핫클립] &quot;브라질도 명절 스트레스 있다&quot;"></a></span><strong class="headline"><a href="http://news.joins.com/article/18763140?cloc=joongang|home|photovod" target="_self">[비정상칼럼쇼 19회 핫클립] "브라질도 명절 스트레스 있다"</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18771391?cloc=joongang|home|photovod" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001151738985029.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001151738985029.jpg" alt="[이규연의 스포트라이트 예고] 탈북 아이 1만km 동행 취재"></a></span><strong class="headline"><a href="http://news.joins.com/article/18771391?cloc=joongang|home|photovod" target="_self">[이규연의 스포트라이트 예고] 탈북 아이 1만km 동행 취재</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18759621?cloc=joongang|home|photovod" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_201509308590747787.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_201509308590747787.jpg" alt="구형·중저가 스마트폰 인기 실속파 소비자' 늘었다"><span class="icon_video"></span></a></span><strong class="headline"><a href="http://news.joins.com/article/18759621?cloc=joongang|home|photovod" target="_self">구형·중저가 스마트폰 인기 </br>실속파 소비자' 늘었다</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18762612?cloc=joongang|home|photovod" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100110422403509.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100110422403509.jpg" alt="[공감 영상] 전 이제 사라지게 되는 걸까요?"><span class="icon_video"></span></a></span><strong class="headline"><a href="http://news.joins.com/article/18762612?cloc=joongang|home|photovod" target="_self">[공감 영상] 전 이제 사라지게 되는 걸까요?</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18759644?cloc=joongang|home|photovod" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093085933685455.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_2015093085933685455.jpg" alt="내달부터 동네의원·약국 등 토요일 오전 진료비 인상"><span class="icon_video"></span></a></span><strong class="headline"><a href="http://news.joins.com/article/18759644?cloc=joongang|home|photovod" target="_self">내달부터 동네의원·약국 등 토요일 오전 진료비 인상</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18759500?cloc=joongang|home|photovod" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_20150930902216902.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/30/wimg_20150930902216902.jpg" alt="유흥가서 '보호비' 뜯어낸 조폭 신고하면 보복폭행"><span class="icon_video"></span></a></span><strong class="headline"><a href="http://news.joins.com/article/18759500?cloc=joongang|home|photovod" target="_self">유흥가서 '보호비' 뜯어낸 조폭 </br>신고하면 보복폭행</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18747610?cloc=joongang|home|photovod" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/26/wimg_20150926181055457310.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/26/wimg_20150926181055457310.jpg" alt="[Travel Gallery] 아기자기, 알록달록···레고 여행"></a></span><strong class="headline"><a href="http://news.joins.com/article/18747610?cloc=joongang|home|photovod" target="_self">[Travel Gallery] 아기자기, 알록달록···레고 여행</a></strong></div>
+          </div>
+          <div class="slide">
+            <div class="text_area"><span class="thumb"><a href="http://news.joins.com/pic/photoviewer/425222?cloc=joongang|home|photovod" target="_blank"><img src="http://wimage.joins.com/indexedit/joongang/201509/24/wimg_2015092414288236667.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/24/wimg_2015092414288236667.jpg" alt="2015 마드리드 패션위크 [AP=뉴시스]"><span class="icon_pictorial"></span></a></span><strong class="headline"><a href="http://news.joins.com/pic/photoviewer/425222?cloc=joongang|home|photovod" target="_blank">2015 마드리드 패션위크 [AP=뉴시스]</a></strong></div>
+          </div>
+        </div>
+      </div><span class="frame"></span><button type="button" class="btn-prev">이전</button><button type="button" class="btn-next">다음</button></div>
+  </div>
+</div></div><!--@bottom_photo_vod(end)@-->
+                    <!-- //포토&middot;영상 -->
+
+                    <div class="clearfx">
+                        <div class="clt">
+
+                            <!-- 주요기사 -->
+                            <!--@left_article_3(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_left:left_article_3:1:홈 왼쪽 주요기사 3"><div class="main_article">
+  <div class="hd">
+    <h2 class="hide">주요기사</h2>
+  </div>
+  <div class="bd">
+    <ul>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766445?cloc=joongang|home|newslist3big" target="_self">한국서 훌쩍 큰 샤오미<br/>약진하는 중국 IT기업</a></strong><span class="thumb"><a href="http://news.joins.com/article/18766445?cloc=joongang|home|newslist3" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510011224866495.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510011224866495.jpg" alt="한국서 훌쩍 큰 샤오미약진하는 중국 IT기업"></a></span><span class="lead"><a href="http://news.joins.com/article/18766445?cloc=joongang|home|newslist3" target="_self">직장인 정모(42)씨는 요즘 샤오미(小米)에 푹 빠져있다. 하루 몇 시간을 잤고, 이 중 숙면한 시간은 얼마나 되는지를 바로바로 스마트폰으로…</a></span></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768989?cloc=joongang|home|newslist3" target="_self">세월호 배·보상 신청 접수 종료…희생자 68% 신청</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766547?cloc=joongang|home|newslist3" target="_self">토요일 오전 병원 가면 500원 더 내…직장인들 불만</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768836?cloc=joongang|home|newslist3" target="_self">LG전자 수퍼 프리미엄 스마트폰 'V10' 베일 벗었다</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768734?cloc=joongang|home|newslist3" target="_self">미국, 북한 기업 2곳 추가 제재…수시 제재로 전환</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18769244?cloc=joongang|home|newslist3" target="_self">생활비 쪼들려 책 도둑질한 명문대 대학원생 '벌금형'</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18769356?cloc=joongang|home|newslist3" target="_self">"땅값 오른다" 허위광고로 수억원 챙긴 부동산업자</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18767452?cloc=joongang|home|newslist3" target="_self">생후 50일 딸 숨진 채 발견…경찰, 어머니 긴급체포</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766553?cloc=joongang|home|newslist3" target="_self">"내 폴크스바겐은…" 출고 직전 계약해지 잇따라</a></strong><span class="thumb"><a href="http://news.joins.com/article/18766553?cloc=joongang|home|newslist3" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100181812687504.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100181812687504.jpg" alt="만평을 부탁해 말풍선을 채워주시면 선물을 드립니다"></a></span><span class="lead"><a href="http://news.joins.com/article/18766553?cloc=joongang|home|newslist3" target="_self">폴크스바겐 지방 전시장에서 일하는 영업사원 김모(33)씨는 추석을 앞두고 하루 종일…</a></span><ul class="related_article"><li><a href="http://news.joins.com/article/18766554" total_id="18766554">폴크스바겐·아우디 구입 2명 국내 첫 소송</a></li></ul>
+      </li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768773?cloc=joongang|home|newslist3" target="_self">토트넘 감독 "발 부상 당한 손흥민, 몇 주간 못 뛴다"</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18769438?cloc=joongang|home|newslist3" target="_self">한강 투신 후 구조된 안종복 전 경남FC 사장 구속</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768798?cloc=joongang|home|newslist3" target="_self">가출 10대 소녀 성매매 알선·성폭행한 30대 징역 5년</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18768990?cloc=joongang|home|newslist3" target="_self">시내버스에서 20대女 치마 속 '몰카' 찍은 고교생 입건</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766315?cloc=joongang|home|newslist3" target="_self">7~9월엔 들꽃 10~6월엔 눈꽃, 세계 최고 휴화산</a></strong><span class="thumb"><a href="http://news.joins.com/article/18766315?cloc=joongang|home|newslist3" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510019434176248.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510019434176248.jpg" alt=""></a></span><span class="lead"><a href="http://news.joins.com/article/18766315?cloc=joongang|home|newslist3" target="_self">파란 하늘 아래 하얀 눈을 덮어쓰고 있는 레이니어산. 이처럼 구름 한 점 없는 ‘블루 스카이(Blue Sky)’를 볼 수 있는 날은 1년에 열흘도 되지 않는다…</a></span></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766564?cloc=joongang|home|newslist3" target="_self">문재인 방중 취소…중국, 동북3성 방문 난색</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766437?cloc=joongang|home|newslist3" target="_self">빚 120조원 글렌코어 휘청…원자재시장 폭풍전야</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18760469?cloc=joongang|home|newslist3" target="_self"><span class="label_news"><span>만평을 부탁해</span></span> 말풍선을 채워주시면 선물을 드립니다</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18766501?cloc=joongang|home|newslist3" target="_self">체육회가 부추긴 김연아 '스포츠영웅' 탈락 논란</a></strong></li>
+      <li><strong class="headline mg"><a href="http://news.joins.com/article/18758730?cloc=joongang|home|newslist3" target="_self">누드로 요리하는 여성 요리사 화제<img src='http://images.joins.com/ui_joongang/news/pc/common/i_photo.gif' alt='포토' border='0' /></a></strong></li>
+    </ul>
+  </div>
+</div></div><!--@left_article_3(end)@-->
+                            <!-- //주요기사 -->
+
+                        </div>
+                        <div class="crt">
+
+                            <!-- 이슈 -->
+                            <div class="issue_page" data-widget-type="HomeIssue"></div>
+                            <!-- //이슈 -->
+
+                            <div class="column_wrap clearfx">
+                                <div class="clt">
+
+                                    <!-- J플러스 인기필진 -->
+                                    <script type="text/javascript" src="http://jplus.joins.com/Scripts/layout.js"></script> 
+                                    <script type="text/javascript"> jplus.layout.reporters.renderHtml(); </script>
+                                    <!-- //J플러스 인기필진 -->
+                                    <!-- J플러스 필진 신청하기 -->
+                                    <div class="jplus_apply">
+                                        <div class="hd">
+                                            <h2 class="hide">J플러스 필진 신청하기</h2>
+                                        </div>
+                                        <div class="bd">
+                                            <p><a href="http://jplus.joins.com/Home/EditReporter" target="_blank"><strong class="mg">필진 신청하기</strong> <em>당신의 깊은 생각과 경험을J플러스에서 나누세요.</em></a></p>
+                                        </div>
+                                    </div>
+                                    <!-- //J플러스 필진 신청하기 -->
+
+                                </div>
+                                <div class="crt">
+                                    <!-- J플러스 Top기사 -->
+                                    <!-- <div class="jplus_article" data-widget-type="HomeJPlusTop"></div> -->
+									<div class="jplus_article">
+<div class="hd">
+<h2 class="subtit_comm"><a href="http://jplus.joins.com?cloc=Joongang|home|jplustop" target="_self">J플러스 Top기사</a></h2>
+</div>
+<div class="bd">
+<ul>
+<li><span class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18766803?cloc=Joongang|home|jplustop" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510016545803797.jpg"></a></span><strong class="headline mg"><a href="http://news.joins.com/article/18766803?cloc=Joongang|home|jplustop" target="_self">22년만의 동거 ⑧대화가 필요해</a></strong><span class="lead"><a href="http://news.joins.com/article/18766803?cloc=Joongang|home|jplustop" target="_self">엄마와의 대화는 늘 똑같았다. 똑같았다는 말은 할 말이 없었다는 뜻이다. 같이 살기 전에 나눴던 대화 내용은…</a></span></span><span class="byline"><a href="/reporter/1074?cloc=Joongang|home|jplustop" target="_self">김종윤</a> | <a href="/reporter/1074?cloc=Joongang|home|jplustop" target="_self">중앙SUNDAY 경제산업에디터</a></span></li>
+<li><span class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18762631?cloc=Joongang|home|jplustop" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_201510016495882236.jpg"></a></span><strong class="headline mg"><a href="http://news.joins.com/article/18762631?cloc=Joongang|home|jplustop" target="_self">사진의 표현성을 높이는 세가지 포인트</a></strong><span class="lead"><a href="http://news.joins.com/article/18762631?cloc=Joongang|home|jplustop" target="_self">사진의 표현성은 대상에서 느끼는 감정에서 비롯됩니다. 사진을 찍기 전에 "내가 왜 이 장면을 찍을까" 하고…</a></span></span><span class="byline"><a href="/reporter/1586?cloc=Joongang|home|jplustop" target="_self">주기중</a> | <a href="/reporter/1586?cloc=Joongang|home|jplustop" target="_self">중앙일보 시사미디어 포토디렉터</a></span></li>
+<li><span class="text_area"><span class="thumb"><a href="http://news.joins.com/article/18765667?cloc=Joongang|home|jplustop" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_2015100165711767602.jpg"></a></span><strong class="headline mg"><a href="http://news.joins.com/article/18765667?cloc=Joongang|home|jplustop" target="_self">이름을 가질 권리 vs. 이름을 지을 권리</a></strong><span class="lead"><a href="http://news.joins.com/article/18765667?cloc=Joongang|home|jplustop" target="_self">UN 아동권리협약 제7조에는 인간이 탄생과 동시에 확보되어야 하는 핵심적인 권리를, 국적, 이름, 부모와…</a></span></span><span class="byline"><a href="/reporter/1693?cloc=Joongang|home|jplustop" target="_self">이경은</a> | <a href="/reporter/1693?cloc=Joongang|home|jplustop" target="_self">아동인권 전문가</a></span></li>
+</ul>
+</div>
+<div class="ft"><a href="http://jplus.joins.com?cloc=Joongang|home|jplustop" class="add" target="_self"><span class="hide">J플러스 Top기사</span> 더보기<span class="icon"></span></a></div>
+</div>
+
+                                    <!-- //J플러스 Top기사 -->
+                                </div>
+                            </div>
+
+                            <!-- 내부 홍보 배너 -->
+                            <div class="time7_wrap" data-widget-type="HomeTime7"></div>
+                            <!-- //내부 홍보 배너 -->
+
+                        </div>
+                    </div>
+
+                    <!-- 섹션 주요 뉴스 -->
+                    <div class="black_area section_news" data-widget-type="HomeSectionNews"></div>
+                    <!-- //섹션 주요 뉴스 -->
+
+                    <div class="clearfx">
+                        <div class="clt">
+
+                            <!-- JMnet 채널 -->
+                            <div class="jmnet_channel" data-widget-type="HomeJMNet"></div>
+                            <!-- //JMnet 채널 -->
+
+                        </div>
+                        <div class="crt">
+
+                            <div class="column_wrap clearfx">
+                                <div class="clt">
+                                    <!-- 블로그 뉴스 -->
+                                    <!--@bottom_joins_blog(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_bottom:bottom_joins_blog:1:홈 하단 조인스 블로그"><div class="joins_blog">
+  <div class="hd">
+    <h2 class="subtit_comm"><a href="http://blog.joins.com" target="_blank"><span class="t_joins"><span class="hide">조인스</span></span> 블로그
+          </a></h2>
+  </div>
+  <div class="bd clearfx"><span class="thumb"><a href="http://blog.joins.com/media/folderListSlide.asp?uid=okhee77333&amp;folder=70&amp;list_id=13715218&amp;cloc=joongang|home|blog" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/20/wimg_2015092062011763250.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/20/wimg_2015092062011763250.jpg" alt="집밥 백선생 따라하기 목살카레덮밥"></a></span><strong class="headline mg"><a href="http://blog.joins.com/media/folderListSlide.asp?uid=okhee77333&amp;folder=70&amp;list_id=13715218&amp;cloc=joongang|home|blog" target="_self">집밥 백선생 따라하기 목살카레덮밥</a></strong><span class="lead"><a href="http://blog.joins.com/media/folderListSlide.asp?uid=okhee77333&amp;folder=70&amp;list_id=13715218&amp;cloc=joongang|home|blog" target="_self">주부 9단 뺨치는 맛난 목살 카레 만드는 비법 함께 따라해보세요</a></span></div>
+  <div class="ft"><a href="http://blog.joins.com" target="_blank" class="add"><span class="hide">블로그 뉴스</span> 더보기<span class="icon"></span></a></div>
+</div></div><!--@bottom_joins_blog(end)@-->
+                                    <!-- //블로그 뉴스 -->
+                                    <!-- 인물 정보 -->
+                                    <div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_bottom:bottom_person_info:1:홈 하단 인물 정보"><div class="joins_people">
+<div class="hd">
+<h2 class="hide">인물정보</h2>
+<div class="search">
+<fieldset>
+<legend class="hide">인물정보 검색</legend><label for="search_word" class="mg" style="visibility:visible;"><span class="t_joins"><span class="hide">조인스</span></span> 인물정보
+            </label><input type="text" id="search_word" class="txt" value=""><button type="button" class="btn">검색</button></fieldset>
+</div>
+</div>
+<div class="bd"><span class="photo"><a href="http://news.joins.com/article/18766513?cloc=joongang|home|people" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001103449163703.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201510/01/wimg_20151001103449163703.jpg" alt="웃음 사라진 세상 보며 만든…"></a></span><strong class="headline mg"><a href="http://news.joins.com/article/18766513?cloc=joongang|home|people" target="_self">웃음 사라진 세상 보며 만든…</a></strong><span class="byline"><a href="http://news.joins.com/article/18766513?cloc=joongang|home|people" target="_self">오형일 [現] 팝아티스트</a></span></div>
+</div>
+</div>
+                                    <!-- //인물 정보 -->
+                                    <!-- 바로잡습니다 -->
+                                    <!--@bottom_correct(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_bottom:bottom_correct:1:홈 하단 바로 잡습니다"><div class="corrected_news">
+  <div class="hd">
+    <h2 class="subtit_comm"><a href="http://news.joins.com/Issue/10764?cloc=joongang|home|factcheck" target="_self">바로 잡습니다</a></h2>
+  </div>
+  <div class="bd">
+    <ul class="clearfx">
+      <li><a href="http://news.joins.com/article/18733981?cloc=joongang|home|factcheck" target="_self">9월 5일자 27면</a></li>
+      <li><a href="http://news.joins.com/article/18605108?cloc=joongang|home|factcheck" target="_self">9월 5일자 1면</a></li>
+      <li><a href="http://news.joins.com/article/18656390?cloc=joongang|home|factcheck" target="_self">9월 11일자 5면</a></li>
+    </ul>
+  </div>
+  <div class="ft"><a class="add" href="http://news.joins.com/Issue/10764?cloc=joongang|home|factcheck" target="_self"><span class="hide">바로 잡습니다</span> 더보기<span class="icon"></span></a></div>
+</div></div><!--@bottom_correct(end)@-->
+                                    <!-- //바로잡습니다 -->
+                                </div>
+                                <div class="crt">
+                                    <!-- DA 250 -->
+                                    <div class="da_250" data-widget-type="Ad" data-widget-service="da_250" style="display:none;"></div>
+                                    <!-- //DA 250 -->
+                                    <!-- 중앙일보 FB -->
+                                    <div class="joongangilbo_fb" data-widget-type="DepartmentSns" data-widget-category="Joongang"></div>
+
+                                    <!-- //중앙일보 FB -->
+                                    <!-- 생활 정보 -->
+                                    <div class="useful_information">
+                                        <div class="hd">
+                                            <h2 class="hide">생활 정보</h2>
+                                        </div>
+                                        <div class="bd">
+                                            <ul>
+                                                <!--@bottom_today_notice(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_bottom:bottom_today_notice:1:홈 하단 생활 정보-알림"><li><strong>[알림]</strong><a href="http://news.joins.com/article/18714626?cloc=joongang|home|notice" target="_self">중앙일보.JTBC 신입 공채 서류접수 기간 연장</a></li>
+<li><strong>[알림]</strong><a href="http://news.joins.com/article/18604851?cloc=joongang|home|notice" target="_self">광고·기획·영업 인재 모십니다</a></li></div><!--@bottom_today_notice(end)@-->
+                                                <!--@bottom_todaylife(start)@--><div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_bottom:bottom_todaylife:1:홈 하단 생활 정보-생활"><li><strong>[생활]</strong><a href="http://weather.joins.com/?cloc=joongang|home|notice" target="_self">날씨</a> | <a href="http://news.joins.com/issue/10721?cloc=joongang|home|notice" target="_self">운세</a> | <a href="http://jtbc.joins.com/schedule/schedule.aspx?cloc=jtbc|header|guide&amp;cloc=joongang|home|notice" target="_self">TV편성표</a> | <a href="http://korean.joins.com/?cloc=joongang|home|notice" target="_self">우리말</a></li></div><!--@bottom_todaylife(end)@-->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- //생활 정보 -->
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div name="divEditPartInfo" class="jover" active="yes" wysiwyg="yes" relpubno="" longdesc="joongang:15re_home_bottom:bottom_business:1:홈 하단 IMC 편집영역"><div class="business_wrap clearfx">
+<div class="business_center">
+<div class="hd">
+<h2 class="subtit_comm"><a href="http://joongang.joins.com/list/news/brandnews/brandnews.html?cloc=joongang|home|biz" target="_self">보도자료</a></h2>
+</div>
+<div class="bd"><span class="thumb"><a href="http://news.joins.com/article/18746245?cloc=joongang|home|biz" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/25/wimg_20150925172443824858.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/25/wimg_20150925172443824858.jpg" alt="공항철도, 열차탈선 등 사고복구 훈련 시행"></a></span><ul class="mg">
+<li><a href="http://news.joins.com/article/18746245?cloc=joongang|home|biz" target="_self">공항철도, 열차탈선 등 사고복구 훈련 시행</a></li>
+<li><a href="http://news.joins.com/article/18746259?cloc=joongang|home|biz" target="_self">자사고 자기소개서 작성가이드 및 면접 대비법</a></li>
+<li><a href="http://news.joins.com/article/18496409?cloc=joongang|home|biz" target="_self">전세계 남성들의 공통 관심사는 무엇?</a></li>
+</ul>
+</div>
+<div class="ft"><a class="add" href="http://joongang.joins.com/list/news/brandnews/brandnews.html?cloc=joongang|home|biz" target="_self"><span class="hide">보도자료</span> 더보기<span class="icon"></span></a></div>
+</div>
+<div class="business_center">
+<div class="hd">
+<h2 class="subtit_comm"><a href="http://gnews.joins.com/?cloc=joongang|home|biz" target="_self">경기도</a></h2>
+</div>
+<div class="bd"><span class="thumb"><a href="http://gnews.joins.com/Article.aspx?total_id=18732208&amp;cloc=joongang|home|biz" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/23/wimg_2015092318227997260.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/23/wimg_2015092318227997260.jpg" alt="경기도 신청사부지 도민에게 단계적 개방"></a></span><ul class="mg">
+<li><a href="http://gnews.joins.com/Article.aspx?total_id=18732208&amp;cloc=joongang|home|biz" target="_self">경기도 신청사부지 도민에게 단계적 개방</a></li>
+<li><a href="http://gnews.joins.com/Article.aspx?total_id=18663887&amp;cloc=joongang|home|biz" target="_self">환경거버넌스 활성화한다… 경기환경포럼 출범</a></li>
+<li><a href="http://gnews.joins.com/Article.aspx?total_id=18546346&amp;cloc=joongang|home|biz" target="_self">경기도 예산규모 사상 첫 20조원 넘어</a></li>
+</ul>
+</div>
+<div class="ft"><a class="add" href="http://gnews.joins.com/?cloc=joongang|home|biz" target="_self"><span class="hide">경기도</span> 더보기<span class="icon"></span></a></div>
+</div>
+<div class="business_center">
+<div class="hd">
+<h2 class="subtit_comm"><a href="http://joongang.joins.com/list/life/health/health.html?cloc=joongang|home|navi2&amp;cloc=joongang|home|biz" target="_self">건강칼럼</a></h2>
+</div>
+<div class="bd"><span class="thumb"><a href="http://news.joins.com/article/18703084?cloc=joongang|home|biz" target="_self"><img src="http://wimage.joins.com/indexedit/joongang/201509/25/wimg_20150925172217303423.jpg" longdesc="http://wimage.joins.com/indexedit/joongang/201509/25/wimg_20150925172217303423.jpg" alt="부모님 ‘아랫동네’ 살피는 게 효도"></a></span><ul class="mg">
+<li><a href="http://news.joins.com/article/18703084?cloc=joongang|home|biz" target="_self">부모님 ‘아랫동네’ 살피는 게 효도</a></li>
+<li><a href="http://news.joins.com/article/18732146?cloc=joongang|home|biz" target="_self">추석이 다가온다…명절증후군 예방법</a></li>
+<li><a href="http://news.joins.com/article/18734450?cloc=joongang|home|biz" target="_self">긴 명절 끝 찾아오는 생리통?</a></li>
+</ul>
+</div>
+<div class="ft"><a class="add" href="http://joongang.joins.com/list/life/health/health.html?cloc=joongang|home|navi2&amp;cloc=joongang|home|biz" target="_self"><span class="hide">건강칼럼</span> 더보기<span class="icon"></span></a></div>
+</div>
+</div>
+</div>
+
+                </div>
+            </div>
+            <div id="foot"></div>
+        </div>
+        <div id="aside"></div>
+        <div class="back_top"><a href="#none">Back To Top</a></div>
+
+    </div>
+    <script type="text/javascript">
+		document.domain = "joins.com";
+        utils.config({
+            'pageType': PAGE_TYPE.index
+        });
+    </script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/layout.js"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/utils/widget.js"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/init.js"></script>
+    <script type="text/javascript" src="http://static.joins.com/joongang_15re/scripts/index.js"></script>
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments);
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-40895666-4', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+
+</html>
